@@ -1,0 +1,23 @@
+{
+  "courseName": "MTH 202",
+  "questions": [
+    {
+      "id": 1,
+      "text": "What is the derivative of x²?",
+      "options": ["2x", "x²", "2", "x"],
+      "correct": 0
+    },
+    {
+      "id": 2,
+      "text": "What is ∫ 2x dx?",
+      "options": ["x² + C", "2x² + C", "x + C", "2 + C"],
+      "correct": 0
+    },
+    {
+      "id": 3,
+      "text": "What is the limit of sin(x)/x as x → 0?",
+      "options": ["0", "1", "∞", "Undefined"],
+      "correct": 1
+    }
+  ]
+}

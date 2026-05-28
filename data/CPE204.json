@@ -1,0 +1,605 @@
+{
+  "courseName": "CPE 204",
+  "questions": [
+    {
+      "id": 1,
+      "text": "What is the output of a combinational logic circuit dependent on?",
+      "options": ["Only current input", "Current and past input", "Only past input", "Clock signal"],
+      "correct": 0
+    },
+    {
+      "id": 2,
+      "text": "Which of the following is an example of a combinational logic circuit?",
+      "options": ["Flip-flop", "Counter", "Half adder", "Register"],
+      "correct": 2
+    },
+    {
+      "id": 3,
+      "text": "Sequential logic circuits require what that combinational circuits do not?",
+      "options": ["Power supply", "Memory", "Inputs", "Outputs"],
+      "correct": 1
+    },
+    {
+      "id": 4,
+      "text": "Which type of sequential circuit is controlled by a clock signal?",
+      "options": ["Asynchronous", "Synchronous", "Combinational", "Analog"],
+      "correct": 1
+    },
+    {
+      "id": 5,
+      "text": "How many stable states does a bistable multivibrator (flip-flop) have?",
+      "options": ["One", "Two", "Three", "Four"],
+      "correct": 1
+    },
+    {
+      "id": 6,
+      "text": "What is the basic memory unit in digital systems?",
+      "options": ["Register", "Counter", "Flip-flop", "Multiplexer"],
+      "correct": 2
+    },
+    {
+      "id": 7,
+      "text": "Which of the following is NOT a type of flip-flop?",
+      "options": ["SR", "JK", "DT", "T"],
+      "correct": 2
+    },
+    {
+      "id": 8,
+      "text": "What are the two inputs of a NAND latch called?",
+      "options": ["J and K", "S and R", "SET and RESET", "D and CLK"],
+      "correct": 2
+    },
+    {
+      "id": 9,
+      "text": "In a NAND latch, what is the normal resting state?",
+      "options": ["SET=0, RESET=0", "SET=0, RESET=1", "SET=1, RESET=0", "SET=1, RESET=1"],
+      "correct": 3
+    },
+    {
+      "id": 10,
+      "text": "In a NAND latch, which input combination produces an invalid/unpredictable state?",
+      "options": ["SET=1, RESET=1", "SET=0, RESET=1", "SET=1, RESET=0", "SET=0, RESET=0"],
+      "correct": 3
+    },
+    {
+      "id": 11,
+      "text": "What happens in a NAND latch when SET=0 and RESET=1?",
+      "options": ["Q=0", "Q=1", "No change", "Invalid"],
+      "correct": 1
+    },
+    {
+      "id": 12,
+      "text": "What happens in a NAND latch when SET=1 and RESET=0?",
+      "options": ["Q=0", "Q=1", "No change", "Invalid"],
+      "correct": 0
+    },
+    {
+      "id": 13,
+      "text": "In a NOR gate latch, what is the normal resting state?",
+      "options": ["S=0, R=0", "S=0, R=1", "S=1, R=0", "S=1, R=1"],
+      "correct": 0
+    },
+    {
+      "id": 14,
+      "text": "Which input combination is invalid for a NOR gate latch?",
+      "options": ["S=0, R=0", "S=0, R=1", "S=1, R=0", "S=1, R=1"],
+      "correct": 3
+    },
+    {
+      "id": 15,
+      "text": "What do Q and Q̄ become in a NOR latch when S=1 and R=1?",
+      "options": ["Q=1, Q̄=0", "Q=0, Q̄=1", "Q=0, Q̄=0", "Q=1, Q̄=1"],
+      "correct": 2
+    },
+    {
+      "id": 16,
+      "text": "What is added to an S-R latch to make it synchronous?",
+      "options": ["Inverter", "Clock/Enable input", "Feedback loop", "Capacitor"],
+      "correct": 1
+    },
+    {
+      "id": 17,
+      "text": "In a gated S-R latch, when G=0, what happens to the outputs?",
+      "options": ["Set", "Reset", "Hold", "Toggle"],
+      "correct": 2
+    },
+    {
+      "id": 18,
+      "text": "In a gated S-R latch, which input combination is invalid when G=1?",
+      "options": ["S=0, R=0", "S=0, R=1", "S=1, R=0", "S=1, R=1"],
+      "correct": 3
+    },
+    {
+      "id": 19,
+      "text": "How is a D latch derived from an S-R latch?",
+      "options": ["Connect S to clock", "Connect S=D and R=NOT D", "Connect R to clock", "Add a NOT gate to Q"],
+      "correct": 1
+    },
+    {
+      "id": 20,
+      "text": "What is the characteristic equation of a D flip-flop?",
+      "options": ["Q_next = JQ̄ + K̄Q", "Q_next = TQ̄ + T̄Q", "Q_next = D", "Q_next = S + R̄Q"],
+      "correct": 2
+    },
+    {
+      "id": 21,
+      "text": "How many inputs does a D flip-flop have (excluding clock)?",
+      "options": ["One", "Two", "Three", "Four"],
+      "correct": 0
+    },
+    {
+      "id": 22,
+      "text": "What does D in D flip-flop stand for?",
+      "options": ["Digital", "Delay/Data", "Dual", "Dynamic"],
+      "correct": 1
+    },
+    {
+      "id": 23,
+      "text": "In a D flip-flop excitation table, if Q_n=0 and Q_{n+1}=1, what must D be?",
+      "options": ["0", "1", "X (don't care)", "Toggle"],
+      "correct": 1
+    },
+    {
+      "id": 24,
+      "text": "Which flip-flop has the characteristic equation Q_next = JQ̄ + K̄Q?",
+      "options": ["SR", "D", "JK", "T"],
+      "correct": 2
+    },
+    {
+      "id": 25,
+      "text": "What happens in a JK flip-flop when J=1 and K=1?",
+      "options": ["Set", "Reset", "Hold", "Toggle"],
+      "correct": 3
+    },
+    {
+      "id": 26,
+      "text": "How many inputs does a JK flip-flop have (excluding clock)?",
+      "options": ["One", "Two", "Three", "Four"],
+      "correct": 1
+    },
+    {
+      "id": 27,
+      "text": "What is the advantage of a JK flip-flop over an SR flip-flop?",
+      "options": ["Fewer inputs", "No invalid state", "Faster", "Uses less power"],
+      "correct": 1
+    },
+    {
+      "id": 28,
+      "text": "In a JK flip-flop excitation table, if Q_n=1 and Q_{n+1}=0, what must J and K be?",
+      "options": ["J=0, K=X", "J=1, K=X", "J=X, K=1", "J=X, K=0"],
+      "correct": 2
+    },
+    {
+      "id": 29,
+      "text": "What is the JK flip-flop excitation when transitioning from 0 to 0?",
+      "options": ["J=0, K=X", "J=1, K=X", "J=X, K=1", "J=X, K=0"],
+      "correct": 0
+    },
+    {
+      "id": 30,
+      "text": "What is the characteristic equation of a T flip-flop?",
+      "options": ["Q_next = D", "Q_next = TQ̄ + T̄Q", "Q_next = JQ̄ + K̄Q", "Q_next = S + R̄Q"],
+      "correct": 1
+    },
+    {
+      "id": 31,
+      "text": "What happens in a T flip-flop when T=1?",
+      "options": ["Hold", "Set", "Reset", "Toggle"],
+      "correct": 3
+    },
+    {
+      "id": 32,
+      "text": "What happens in a T flip-flop when T=0?",
+      "options": ["Hold", "Set", "Reset", "Toggle"],
+      "correct": 0
+    },
+    {
+      "id": 33,
+      "text": "In a T flip-flop excitation table, if Q_n=1 and Q_{n+1}=0, what must T be?",
+      "options": ["0", "1", "X (don't care)", "0 or 1"],
+      "correct": 1
+    },
+    {
+      "id": 34,
+      "text": "Which flip-flop has only one input besides the clock?",
+      "options": ["SR and JK", "D and T", "JK and T", "SR and D"],
+      "correct": 1
+    },
+    {
+      "id": 35,
+      "text": "What is the characteristic equation of an SR flip-flop?",
+      "options": ["Q_next = D", "Q_next = S + R̄Q", "Q_next = JQ̄ + K̄Q", "Q_next = TQ̄ + T̄Q"],
+      "correct": 1
+    },
+    {
+      "id": 36,
+      "text": "In an SR flip-flop, which input combination is invalid?",
+      "options": ["S=0, R=0", "S=0, R=1", "S=1, R=0", "S=1, R=1"],
+      "correct": 3
+    },
+    {
+      "id": 37,
+      "text": "What is the main difference between a latch and a flip-flop?",
+      "options": ["Power consumption", "Latch is level-sensitive, flip-flop is edge-sensitive", "Number of inputs", "Latch is faster"],
+      "correct": 1
+    },
+    {
+      "id": 38,
+      "text": "Which is asynchronous by nature?",
+      "options": ["Flip-flop", "Latch", "Counter", "Shift Register"],
+      "correct": 1
+    },
+    {
+      "id": 39,
+      "text": "What does the triangle symbol on a flip-flop's clock input indicate?",
+      "options": ["Level-triggered", "Edge-triggered", "Active LOW", "Asynchronous"],
+      "correct": 1
+    },
+    {
+      "id": 40,
+      "text": "A register is made by combining multiple of which component?",
+      "options": ["Logic gates", "D flip-flops", "Multiplexers", "Decoders"],
+      "correct": 1
+    },
+    {
+      "id": 41,
+      "text": "How many flip-flops are needed to store one byte of data?",
+      "options": ["2", "4", "8", "16"],
+      "correct": 2
+    },
+    {
+      "id": 42,
+      "text": "What is the main use of a shift register?",
+      "options": ["Counting", "Serial-to-parallel conversion", "Addition", "Decoding"],
+      "correct": 1
+    },
+    {
+      "id": 43,
+      "text": "Which shift register mode takes data in serially and outputs it serially?",
+      "options": ["SISO", "SIPO", "PISO", "PIPO"],
+      "correct": 0
+    },
+    {
+      "id": 44,
+      "text": "Which shift register mode converts parallel data to serial output?",
+      "options": ["SISO", "SIPO", "PISO", "PIPO"],
+      "correct": 2
+    },
+    {
+      "id": 45,
+      "text": "In a shift register, data moves on each what?",
+      "options": ["Reset pulse", "Clock pulse", "Enable signal", "Power cycle"],
+      "correct": 1
+    },
+    {
+      "id": 46,
+      "text": "What are the four modes of shift register operation?",
+      "options": ["SISO, SIPO, PISO, PIPO", "UP, DOWN, UPDOWN, RING", "SET, RESET, HOLD, TOGGLE", "AND, OR, NOT, XOR"],
+      "correct": 0
+    },
+    {
+      "id": 47,
+      "text": "How many flip-flops are needed for a MOD-16 counter?",
+      "options": ["2", "3", "4", "5"],
+      "correct": 2
+    },
+    {
+      "id": 48,
+      "text": "How many flip-flops are required to count from 0 to 255?",
+      "options": ["6", "7", "8", "9"],
+      "correct": 2
+    },
+    {
+      "id": 49,
+      "text": "In an asynchronous (ripple) counter, the clock is connected to which flip-flop(s)?",
+      "options": ["All flip-flops simultaneously", "Only the first flip-flop", "Only the last flip-flop", "Alternating flip-flops"],
+      "correct": 1
+    },
+    {
+      "id": 50,
+      "text": "In a synchronous counter, the clock is connected how?",
+      "options": ["Only to first FF", "To all FFs simultaneously", "Through AND gates only", "To the output"],
+      "correct": 1
+    },
+    {
+      "id": 51,
+      "text": "Which counter is faster?",
+      "options": ["Asynchronous (ripple)", "Synchronous", "Both same speed", "Depends on power"],
+      "correct": 1
+    },
+    {
+      "id": 52,
+      "text": "A 20 kHz clock is applied to a JK flip-flop with J=K=1. What is the output frequency?",
+      "options": ["5 kHz", "10 kHz", "20 kHz", "40 kHz"],
+      "correct": 1
+    },
+    {
+      "id": 53,
+      "text": "What is the output frequency of the 8th flip-flop if the input clock is 512 kHz?",
+      "options": ["1 kHz", "2 kHz", "4 kHz", "8 kHz"],
+      "correct": 1
+    },
+    {
+      "id": 54,
+      "text": "In a counter starting at 00000000, what is the state after 520 pulses if it counts 0-255?",
+      "options": ["00000000", "00001000", "00001010", "11111111"],
+      "correct": 1
+    },
+    {
+      "id": 55,
+      "text": "What is a MOD-13 counter?",
+      "options": ["A counter that counts 0-12", "A counter with 13 flip-flops", "A counter that divides by 13", "A 13-bit counter"],
+      "correct": 0
+    },
+    {
+      "id": 56,
+      "text": "How many flip-flops are needed for a MOD-13 counter?",
+      "options": ["3", "4", "5", "13"],
+      "correct": 1
+    },
+    {
+      "id": 57,
+      "text": "What does each flip-flop in a ripple counter do to the frequency?",
+      "options": ["Multiply by 2", "Divide by 2", "Add 2", "No change"],
+      "correct": 1
+    },
+    {
+      "id": 58,
+      "text": "Which flip-flop is most commonly used in counter design?",
+      "options": ["D", "SR", "JK", "Latch"],
+      "correct": 2
+    },
+    {
+      "id": 59,
+      "text": "What are the three types of asynchronous counters?",
+      "options": ["Up, Down, Up-Down", "Ring, Johnson, Ripple", "MOD-N, Binary, BCD", "Serial, Parallel, Mixed"],
+      "correct": 0
+    },
+    {
+      "id": 60,
+      "text": "What is the first step in designing a synchronous counter?",
+      "options": ["Draw K-map", "State number of flip-flops", "Draw logic diagram", "Write truth table"],
+      "correct": 1
+    },
+    {
+      "id": 61,
+      "text": "Which table is used during counter design to determine required flip-flop inputs?",
+      "options": ["Truth table", "Characteristic table", "Excitation table", "Function table"],
+      "correct": 2
+    },
+    {
+      "id": 62,
+      "text": "What is a finite state machine?",
+      "options": ["A general model of sequential circuits", "A type of flip-flop", "A combinational circuit", "An analog circuit"],
+      "correct": 0
+    },
+    {
+      "id": 63,
+      "text": "In a Moore machine, outputs depend on what?",
+      "options": ["Only current state", "Current state and inputs", "Only inputs", "Clock frequency"],
+      "correct": 0
+    },
+    {
+      "id": 64,
+      "text": "In a Mealy machine, outputs depend on what?",
+      "options": ["Only current state", "Current state and inputs", "Only inputs", "Clock frequency"],
+      "correct": 1
+    },
+    {
+      "id": 65,
+      "text": "What does PAL stand for?",
+      "options": ["Programmable Array Logic", "Programmable Arithmetic Logic", "Parallel Array Logic", "Process Array Logic"],
+      "correct": 0
+    },
+    {
+      "id": 66,
+      "text": "What does PLA stand for?",
+      "options": ["Programmable Logic Array", "Parallel Logic Array", "Programmable Linear Array", "Process Logic Array"],
+      "correct": 0
+    },
+    {
+      "id": 67,
+      "text": "In a PAL device, which array is programmable?",
+      "options": ["Both AND and OR", "Only AND", "Only OR", "Neither"],
+      "correct": 1
+    },
+    {
+      "id": 68,
+      "text": "In a PLA device, which arrays are programmable?",
+      "options": ["Both AND and OR", "Only AND", "Only OR", "Neither"],
+      "correct": 0
+    },
+    {
+      "id": 69,
+      "text": "In a PROM, which array is fixed?",
+      "options": ["AND array", "OR array", "Both arrays", "Neither array"],
+      "correct": 0
+    },
+    {
+      "id": 70,
+      "text": "Which is cheaper and simpler: PAL or PLA?",
+      "options": ["PAL", "PLA", "Both same cost", "Depends on application"],
+      "correct": 0
+    },
+    {
+      "id": 71,
+      "text": "Which is more flexible: PAL or PLA?",
+      "options": ["PAL", "PLA", "Both equally flexible", "Neither is flexible"],
+      "correct": 1
+    },
+    {
+      "id": 72,
+      "text": "What form must Boolean functions be in for PAL and PLA implementation?",
+      "options": ["Product of Sums (POS)", "Sum of Products (SOP)", "Either POS or SOP", "Canonical form only"],
+      "correct": 1
+    },
+    {
+      "id": 73,
+      "text": "What is an ASIC?",
+      "options": ["Application Specific Integrated Circuit", "Asynchronous Sequential Integrated Circuit", "Analog Signal Interface Controller", "Advanced System Interface Card"],
+      "correct": 0
+    },
+    {
+      "id": 74,
+      "text": "Which of the following is an SPLD?",
+      "options": ["PAL", "CPLD", "FPGA", "Microprocessor"],
+      "correct": 0
+    },
+    {
+      "id": 75,
+      "text": "Which has the highest capacity: SPLD, CPLD, or FPGA?",
+      "options": ["SPLD", "CPLD", "FPGA", "All have same capacity"],
+      "correct": 2
+    },
+    {
+      "id": 76,
+      "text": "What is the maximum gate count for an SPLD?",
+      "options": ["About 600 gates", "About 6000 gates", "About 60000 gates", "Unlimited"],
+      "correct": 0
+    },
+    {
+      "id": 77,
+      "text": "What does XNOR gate output when inputs are the same?",
+      "options": ["0", "1", "X", "High impedance"],
+      "correct": 1
+    },
+    {
+      "id": 78,
+      "text": "What does XOR gate output when inputs are different?",
+      "options": ["0", "1", "X", "High impedance"],
+      "correct": 1
+    },
+    {
+      "id": 79,
+      "text": "Which gate is considered a universal gate?",
+      "options": ["AND", "OR", "NAND", "XOR"],
+      "correct": 2
+    },
+    {
+      "id": 80,
+      "text": "Which two gates are universal gates?",
+      "options": ["AND and OR", "NAND and NOR", "XOR and XNOR", "NOT and AND"],
+      "correct": 1
+    },
+    {
+      "id": 81,
+      "text": "What is a multiplexer used for?",
+      "options": ["Data selection", "Data storage", "Counting", "Decoding"],
+      "correct": 0
+    },
+    {
+      "id": 82,
+      "text": "What is a demultiplexer used for?",
+      "options": ["Data distribution", "Data storage", "Counting", "Encoding"],
+      "correct": 0
+    },
+    {
+      "id": 83,
+      "text": "What does an encoder do?",
+      "options": ["Converts binary to one-hot", "Converts one-hot to binary", "Selects data", "Stores data"],
+      "correct": 1
+    },
+    {
+      "id": 84,
+      "text": "What does a decoder do?",
+      "options": ["Converts binary to one-hot", "Converts one-hot to binary", "Selects data", "Stores data"],
+      "correct": 0
+    },
+    {
+      "id": 85,
+      "text": "What type of gate is used in an equality comparator?",
+      "options": ["AND", "OR", "XOR", "XNOR"],
+      "correct": 3
+    },
+    {
+      "id": 86,
+      "text": "A half adder cannot handle which input?",
+      "options": ["A input", "B input", "Carry-in", "Sum output"],
+      "correct": 2
+    },
+    {
+      "id": 87,
+      "text": "How many half adders make a full adder?",
+      "options": ["One", "Two", "Three", "Four"],
+      "correct": 1
+    },
+    {
+      "id": 88,
+      "text": "What is the sum output of a half adder?",
+      "options": ["A AND B", "A OR B", "A XOR B", "A NAND B"],
+      "correct": 2
+    },
+    {
+      "id": 89,
+      "text": "What is the carry output of a half adder?",
+      "options": ["A AND B", "A OR B", "A XOR B", "A NAND B"],
+      "correct": 0
+    },
+    {
+      "id": 90,
+      "text": "In a 4-bit ripple carry adder, what is the main disadvantage?",
+      "options": ["High power", "Propagation delay", "High cost", "Complex wiring"],
+      "correct": 1
+    },
+    {
+      "id": 91,
+      "text": "What is the Q̄ output of a flip-flop?",
+      "options": ["The same as Q", "The complement of Q", "The clock signal", "The input"],
+      "correct": 1
+    },
+    {
+      "id": 92,
+      "text": "What is a bistable multivibrator?",
+      "options": ["A device with two stable states", "A device with one stable state", "A clock generator", "A power supply"],
+      "correct": 0
+    },
+    {
+      "id": 93,
+      "text": "In which flip-flop is Q_{next} always equal to the input regardless of current state?",
+      "options": ["SR", "JK", "D", "T"],
+      "correct": 2
+    },
+    {
+      "id": 94,
+      "text": "What is the function of the Clear (CLR) input on a flip-flop?",
+      "options": ["Set Q=1", "Set Q=0", "Toggle Q", "Enable clock"],
+      "correct": 1
+    },
+    {
+      "id": 95,
+      "text": "What is the function of the Preset (PRE) input on a flip-flop?",
+      "options": ["Set Q=1", "Set Q=0", "Toggle Q", "Enable clock"],
+      "correct": 0
+    },
+    {
+      "id": 96,
+      "text": "In a NAND latch, what does SET=0 and RESET=0 produce?",
+      "options": ["Q=0, Q̄=1", "Q=1, Q̄=0", "Q=1, Q̄=1", "Q=0, Q̄=0"],
+      "correct": 2
+    },
+    {
+      "id": 97,
+      "text": "What is the first thing to identify when designing a PAL circuit?",
+      "options": ["Output functions", "All unique product terms", "Clock frequency", "Number of gates"],
+      "correct": 1
+    },
+    {
+      "id": 98,
+      "text": "In a PLA programming table, what does a dash (—) mean?",
+      "options": ["Connected", "Not connected", "Complement", "Invalid"],
+      "correct": 1
+    },
+    {
+      "id": 99,
+      "text": "Which counter type has all flip-flops changing simultaneously?",
+      "options": ["Asynchronous", "Ripple", "Synchronous", "Ring"],
+      "correct": 2
+    },
+    {
+      "id": 100,
+      "text": "What is the purpose of the excitation table in sequential circuit design?",
+      "options": ["To describe flip-flop behavior", "To find required inputs for desired transitions", "To show output states", "To calculate power"],
+      "correct": 1
+    }
+  ]
+}
