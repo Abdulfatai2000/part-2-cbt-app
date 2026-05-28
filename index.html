@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>CBT Platform | Personal Test App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+    <!-- CUSTOM MODAL DIALOG -->
+    <div id="submitModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-icon">
+                <i class="fas fa-question-circle"></i>
+            </div>
+            <h3>Submit Test?</h3>
+            <p id="modalMessage">Are you sure you want to submit your answers?</p>
+            <div class="modal-buttons">
+                <button id="modalCancelBtn" class="btn modal-btn cancel-btn">Cancel</button>
+                <button id="modalConfirmBtn" class="btn modal-btn confirm-btn">Yes, Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- WARNING TOAST CONTAINER (for inline warnings) -->
+    <div class="toast-container" id="toastContainer"></div>
+    
+<body>
+    <div class="app-container" id="app">
+        <!-- SETUP SCREEN -->
+        <div id="setupScreen" class="screen active">
+            <div class="card">
+                <h1>📚 CBT Test Platform</h1>
+                <p class="subtitle">Personal use — select your course & settings</p>
+
+                <div class="form-group">
+                    <label>📖 Select Course</label>
+                    <select id="courseSelect">
+                        <option value="">-- Choose a course --</option>
+                        <option value="MTH202">MTH 202</option>
+                        <option value="STT202">STT 202</option>
+                        <option value="CPE204">CPE 204</option>
+                        <option value="CPE206">CPE 206</option>
+                        <option value="CSC202">CSC 202</option>
+                        <option value="CIS212">CIS 212</option>
+                        <option value="SEN212">SEN 212</option>
+                        <option value="SEN214">SEN 214</option>
+                        <option value="SEN216">SEN 216</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>🔢 Number of questions (max: <span id="maxQuestions">0</span>)</label>
+                    <input type="number" id="questionCount" min="1" value="10" step="1">
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group half">
+                        <label>⏱️ Minutes</label>
+                        <input type="number" id="minutesInput" min="0" value="30" step="1">
+                    </div>
+                    <div class="form-group half">
+                        <label>⏱️ Seconds</label>
+                        <input type="number" id="secondsInput" min="0" max="59" value="0" step="1">
+                    </div>
+                </div>
+
+                <button id="startBtn" class="btn primary">🚀 Start Test</button>
+
+                <div class="history-section">
+                    <h3>📊 Recent History (by course)</h3>
+                    <div id="historyList" class="history-list">
+                        <p class="empty-history">Select a course to see past scores</p>
+                    </div>
+                    <button id="clearHistoryBtn" class="btn small secondary">🗑️ Clear All History</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- TEST SCREEN -->
+        <div id="testScreen" class="screen">
+            <div class="test-header">
+                <div class="course-badge" id="testCourseName">Course</div>
+                <div class="timer-display" id="timerDisplay">00:00:00</div>
+            </div>
+            
+            <div class="progress-info">
+                <span>Question <span id="currentQ">1</span> / <span id="totalQ">0</span></span>
+                <span>✅ <span id="answeredCount">0</span> answered</span>
+            </div>
+
+            <div class="question-container">
+                <div class="question-text" id="questionText">Loading...</div>
+                <div class="options-list" id="optionsList"></div>
+            </div>
+
+            <div class="nav-buttons">
+                <button id="prevBtn" class="btn secondary">◀ Previous</button>
+                <button id="nextBtn" class="btn primary">Next ▶</button>
+                <button id="submitTestBtn" class="btn danger">✅ Submit Test</button>
+            </div>
+        </div>
+
+        <!-- RESULT SCREEN -->
+        <div id="resultScreen" class="screen">
+            <div class="card result-card">
+                <h2>📋 Test Results</h2>
+                <div class="score-circle" id="scoreCircle">0%</div>
+                <p class="score-detail" id="scoreDetail">0 / 0 correct</p>
+                
+                <div class="wrong-answers" id="wrongAnswers">
+                    <h3>❌ Incorrect Answers</h3>
+                    <div id="wrongList"></div>
+                </div>
+
+                <div class="result-buttons">
+                    <button id="newTestBtn" class="btn primary">🔄 New Test</button>
+                    <button id="viewHistoryBtn" class="btn secondary">📊 View History</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+        <!-- FOOTER -->
+    <footer class="app-footer">
+        <div class="footer-content">
+            <div class="footer-col">
+                <div class="footer-crest">
+                    <div class="crest-mini">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="crest-text">
+                        <div class="main">CBT MASTERY</div>
+                        <div class="sub">Knowledge · Focus · Excellence</div>
+                    </div>
+                </div>
+                <p>Your personal Computer-Based Test platform designed for focused, confident exam preparation.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <a href="#">📚 My Courses</a>
+                <a href="#">📊 Progress History</a>
+                <a href="#">⚙️ Test Settings</a>
+                <a href="#">❓ Help Guide</a>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p><i class="fas fa-envelope"></i> coldwande@oau.edu.ng</p>
+                <p><i class="fas fa-map-marker-alt"></i> Obafemi Awolowo University, Ile-Ife</p>
+                <p><i class="fas fa-code"></i> Software Engineering Dept</p>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Motivation</h4>
+                <p class="motivation-quote">"The expert in anything was once a beginner."</p>
+                <div class="motivation-badge">
+                    <i class="fas fa-star"></i> Keep pushing
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>Built with <span class="heart">❤️</span> by <strong class="footer-name">Coldwande</strong> — Software Engineer @ OAU</p>
+            <p class="copyright">© 2025 CBT Mastery. All rights reserved. | <span id="currentYear"></span></p>
+        </div>
+    </footer>
+
+    <!-- Font Awesome for icons (add to <head> if not already there) -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> -->
+
+    <script src="app.js"></script>
+</body>
+</html>
