@@ -600,6 +600,426 @@
       "text": "What is the purpose of the excitation table in sequential circuit design?",
       "options": ["To describe flip-flop behavior", "To find required inputs for desired transitions", "To show output states", "To calculate power"],
       "correct": 1
+    },
+    {
+      "id": 101,
+      "text": "Why is the SET=RESET=0 condition normally not used for a NAND latch?",
+      "options": ["It consumes too much power", "Both outputs become 1 and return to HIGH produces unpredictable results", "It damages the gate", "It is too slow"],
+      "correct": 1
+    },
+    {
+      "id": 102,
+      "text": "What is the difference between the resting states of NAND and NOR latches?",
+      "options": ["NAND rests at 00, NOR rests at 11", "NAND rests at 11, NOR rests at 00", "Both rest at 00", "Both rest at 11"],
+      "correct": 1
+    },
+    {
+      "id": 103,
+      "text": "In a NAND latch, if SET returns HIGH before RESET after both were LOW, what happens?",
+      "options": ["Q becomes 0", "Q becomes 1", "Q stays the same", "The latch explodes"],
+      "correct": 0
+    },
+    {
+      "id": 104,
+      "text": "What does 'transparent' mean in the context of a gated D latch?",
+      "options": ["You can see through the chip", "Output follows input while gate is enabled", "It has no power", "It uses visible light"],
+      "correct": 1
+    },
+    {
+      "id": 105,
+      "text": "Which flip-flop is known as a 'delay' flip-flop?",
+      "options": ["SR", "JK", "D", "T"],
+      "correct": 2
+    },
+    {
+      "id": 106,
+      "text": "How can a T flip-flop be constructed from a JK flip-flop?",
+      "options": ["Connect J and K together as T", "Connect J to clock", "Leave K unconnected", "Connect T to preset"],
+      "correct": 0
+    },
+    {
+      "id": 107,
+      "text": "How can a D flip-flop be constructed from a JK flip-flop?",
+      "options": ["J=D, K=NOT D", "J=K=D", "J=0, K=D", "J=D, K=0"],
+      "correct": 0
+    },
+    {
+      "id": 108,
+      "text": "What is the condition called when both S and R return to inactive simultaneously?",
+      "options": ["Deadlock", "Race condition", "Starvation", "Hazard"],
+      "correct": 1
+    },
+    {
+      "id": 109,
+      "text": "Which flip-flop type has a characteristic equation that is independent of Q_n?",
+      "options": ["SR", "JK", "D", "T"],
+      "correct": 2
+    },
+    {
+      "id": 110,
+      "text": "In a NOR latch, if Q=0 and Q̄=1, what does applying S=1, R=0 do?",
+      "options": ["No change", "Q becomes 1, Q̄ becomes 0", "Q becomes 0, Q̄ becomes 1", "Both become 0"],
+      "correct": 1
+    },
+    {
+      "id": 111,
+      "text": "What is the fundamental difference between a state diagram and a truth table?",
+      "options": ["State diagram shows transitions, truth table shows input-output mapping", "They are identical", "State diagram is for combinational circuits only", "Truth table is for sequential circuits only"],
+      "correct": 0
+    },
+    {
+      "id": 112,
+      "text": "How many states does a 3-bit synchronous counter have?",
+      "options": ["3", "6", "8", "9"],
+      "correct": 2
+    },
+    {
+      "id": 113,
+      "text": "What is the sequence of a 3-bit synchronous DOWN counter starting from 7?",
+      "options": ["7,6,5,4,3,2,1,0,7...", "7,0,1,2,3,4,5,6,7...", "0,1,2,3,4,5,6,7,0...", "7,5,3,1,0,7..."],
+      "correct": 0
+    },
+    {
+      "id": 114,
+      "text": "In a synchronous counter design, what happens after drawing the truth table?",
+      "options": ["Draw the circuit", "Draw K-maps", "Write the excitation table", "Choose flip-flop type"],
+      "correct": 1
+    },
+    {
+      "id": 115,
+      "text": "Why is K-map used in counter design?",
+      "options": ["To count states", "To simplify Boolean expressions for J and K inputs", "To draw the circuit", "To find the number of flip-flops"],
+      "correct": 1
+    },
+    {
+      "id": 116,
+      "text": "In an asynchronous counter, what drives the clock of the second flip-flop?",
+      "options": ["The input clock", "The output Q of the first flip-flop", "The output Q̄ of the first flip-flop", "An external oscillator"],
+      "correct": 1
+    },
+    {
+      "id": 117,
+      "text": "What causes the 'ripple' effect in asynchronous counters?",
+      "options": ["Propagation delay through each flip-flop", "Clock frequency too high", "Power supply noise", "Temperature variations"],
+      "correct": 0
+    },
+    {
+      "id": 118,
+      "text": "How many unused states does a MOD-13 counter have when implemented with 4 flip-flops?",
+      "options": ["1", "2", "3", "4"],
+      "correct": 2
+    },
+    {
+      "id": 119,
+      "text": "What are the unused states in a MOD-13 counter using 4 flip-flops?",
+      "options": ["12, 13, 14", "13, 14, 15", "0, 1, 2", "10, 11, 12"],
+      "correct": 1
+    },
+    {
+      "id": 120,
+      "text": "In a shift register, after 4 clock pulses, where is the first bit that was input?",
+      "options": ["At Q0 (first FF)", "At Q3 (last FF)", "Lost", "At the serial output"],
+      "correct": 1
+    },
+    {
+      "id": 121,
+      "text": "Which register type requires the fewest clock cycles to load 8 bits of parallel data?",
+      "options": ["SISO", "SIPO", "PISO", "PIPO"],
+      "correct": 3
+    },
+    {
+      "id": 122,
+      "text": "How many clock pulses does it take to serially load 8 bits into a SIPO shift register?",
+      "options": ["1", "4", "8", "16"],
+      "correct": 2
+    },
+    {
+      "id": 123,
+      "text": "What is the primary application of a PISO shift register?",
+      "options": ["Serial-to-parallel conversion", "Parallel-to-serial conversion", "Frequency division", "Data storage"],
+      "correct": 1
+    },
+    {
+      "id": 124,
+      "text": "In a PAL, why is the OR array fixed?",
+      "options": ["To reduce cost and complexity", "To make it more flexible", "To increase speed", "To support more inputs"],
+      "correct": 0
+    },
+    {
+      "id": 125,
+      "text": "What is a disadvantage of PAL compared to PLA?",
+      "options": ["Higher cost", "Less flexible product term allocation", "Slower speed", "More complex"],
+      "correct": 1
+    },
+    {
+      "id": 126,
+      "text": "In PAL/PLA design, what must you do first before creating the programming table?",
+      "options": ["Draw the circuit", "Identify all unique product terms", "Choose the device", "Calculate power"],
+      "correct": 1
+    },
+    {
+      "id": 127,
+      "text": "What does a dot (•) represent in a PAL/PLA programming diagram?",
+      "options": ["An open fuse", "An intact (unblown) fuse", "A broken wire", "A ground connection"],
+      "correct": 1
+    },
+    {
+      "id": 128,
+      "text": "What is the purpose of the inverter/buffer pairs at PAL/PLA inputs?",
+      "options": ["To amplify signals", "To provide both true and complement of each input", "To reduce noise", "To increase speed"],
+      "correct": 1
+    },
+    {
+      "id": 129,
+      "text": "Which programmable device has a fixed AND array and programmable OR array?",
+      "options": ["PAL", "PLA", "PROM", "FPGA"],
+      "correct": 2
+    },
+    {
+      "id": 130,
+      "text": "What is the main difference between CPLD and FPGA?",
+      "options": ["CPLD is smaller capacity than FPGA", "FPGA is analog", "CPLD is faster than FPGA", "There is no difference"],
+      "correct": 0
+    },
+    {
+      "id": 131,
+      "text": "In the characteristic table of a JK flip-flop, how many rows are there?",
+      "options": ["4", "6", "8", "16"],
+      "correct": 2
+    },
+    {
+      "id": 132,
+      "text": "What does Q_n represent in flip-flop tables?",
+      "options": ["The next state", "The present/current state", "The clock input", "The reset state"],
+      "correct": 1
+    },
+    {
+      "id": 133,
+      "text": "When designing a synchronous circuit, which table tells you what inputs to apply to achieve a transition?",
+      "options": ["Truth table", "Excitation table", "Characteristic table", "State table"],
+      "correct": 1
+    },
+    {
+      "id": 134,
+      "text": "What is the first step in designing any finite state machine?",
+      "options": ["Draw K-maps", "Choose flip-flop type", "Define the problem and draw state diagram", "Write excitation equations"],
+      "correct": 2
+    },
+    {
+      "id": 135,
+      "text": "In a state diagram, what do the circles represent?",
+      "options": ["Inputs", "Outputs", "States", "Transitions"],
+      "correct": 2
+    },
+    {
+      "id": 136,
+      "text": "In a state diagram, what do the arrows represent?",
+      "options": ["States", "Outputs", "Transitions between states", "Input values only"],
+      "correct": 2
+    },
+    {
+      "id": 137,
+      "text": "What is the main advantage of synchronous counters over asynchronous counters?",
+      "options": ["Fewer components", "Faster operation and no ripple delay", "Lower power", "Simpler design"],
+      "correct": 1
+    },
+    {
+      "id": 138,
+      "text": "In a 4-bit asynchronous down counter, what is the clock source for FF3 (MSB)?",
+      "options": ["Input clock", "Q of FF0", "Q of FF2", "Q̄ of FF0"],
+      "correct": 2
+    },
+    {
+      "id": 139,
+      "text": "What happens if the CLEAR input of a flip-flop is activated?",
+      "options": ["Q is set to 1", "Q is set to 0", "Q toggles", "Q is unchanged"],
+      "correct": 1
+    },
+    {
+      "id": 140,
+      "text": "What is the difference between CLEAR and RESET?",
+      "options": ["They are different operations", "CLEAR is synchronous, RESET is asynchronous", "RESET is synchronous, CLEAR is asynchronous", "They are the same thing"],
+      "correct": 3
+    },
+    {
+      "id": 141,
+      "text": "In a master-slave JK flip-flop, when does the output change?",
+      "options": ["On the rising edge of the clock", "On the falling edge of the clock", "When the clock is HIGH", "When the clock is LOW"],
+      "correct": 1
+    },
+    {
+      "id": 142,
+      "text": "What prevents the race-around condition in a master-slave JK flip-flop?",
+      "options": ["The master is disabled when slave is enabled", "Feedback resistors", "Higher clock frequency", "Additional inputs"],
+      "correct": 0
+    },
+    {
+      "id": 143,
+      "text": "Which flip-flop is best suited for building a frequency divider?",
+      "options": ["D flip-flop", "SR flip-flop", "T flip-flop", "None of these"],
+      "correct": 2
+    },
+    {
+      "id": 144,
+      "text": "How do you convert a D flip-flop into a T flip-flop?",
+      "options": ["Connect D to Q̄", "Connect D to Q", "Connect D to T", "Add an OR gate"],
+      "correct": 0
+    },
+    {
+      "id": 145,
+      "text": "What is the characteristic equation of a D flip-flop converted to T operation?",
+      "options": ["Q_next = D", "Q_next = T ⊕ Q_n", "Q_next = TQ̄ + T̄Q", "Both B and C"],
+      "correct": 3
+    },
+    {
+      "id": 146,
+      "text": "What does a full adder have that a half adder does not?",
+      "options": ["Sum output", "Carry output", "Carry input", "Two inputs"],
+      "correct": 2
+    },
+    {
+      "id": 147,
+      "text": "What is the Boolean expression for the sum output of a full adder?",
+      "options": ["A ⊕ B", "A ⊕ B ⊕ C_in", "A AND B AND C_in", "A OR B OR C_in"],
+      "correct": 1
+    },
+    {
+      "id": 148,
+      "text": "How many select lines does an 8-to-1 multiplexer have?",
+      "options": ["2", "3", "4", "8"],
+      "correct": 1
+    },
+    {
+      "id": 149,
+      "text": "How many outputs does a 3-to-8 decoder have?",
+      "options": ["3", "6", "8", "16"],
+      "correct": 2
+    },
+    {
+      "id": 150,
+      "text": "What is the purpose of the enable input on a decoder?",
+      "options": ["To increase speed", "To disable all outputs when not needed", "To provide power", "To change the decoding"],
+      "correct": 1
+    },
+    {
+      "id": 151,
+      "text": "What is the primary difference between a Moore and Mealy state machine?",
+      "options": ["Moore outputs depend only on state, Mealy on state and inputs", "Moore is faster", "Mealy uses fewer flip-flops", "Moore is for combinational circuits"],
+      "correct": 0
+    },
+    {
+      "id": 152,
+      "text": "Why is the term 'transparent' used for latches?",
+      "options": ["Because the output follows input while enabled", "Because the chip is see-through", "Because it has no power", "Because it uses light signals"],
+      "correct": 0
+    },
+    {
+      "id": 153,
+      "text": "What is the function of a buffer in digital circuits?",
+      "options": ["Inversion", "Amplification/Isolation without inversion", "Storage", "Counting"],
+      "correct": 1
+    },
+    {
+      "id": 154,
+      "text": "What is the output of a NAND gate when all inputs are 1?",
+      "options": ["0", "1", "X", "Toggle"],
+      "correct": 0
+    },
+    {
+      "id": 155,
+      "text": "What is the output of a NOR gate when all inputs are 0?",
+      "options": ["0", "1", "X", "Toggle"],
+      "correct": 1
+    },
+    {
+      "id": 156,
+      "text": "Which device converts 2^n input lines to n output lines?",
+      "options": ["Decoder", "Encoder", "Multiplexer", "Demultiplexer"],
+      "correct": 1
+    },
+    {
+      "id": 157,
+      "text": "In synchronous counter design, what is the correct order of steps?",
+      "options": ["K-map, truth table, excitation table, circuit", "State diagram, truth table, excitation table, K-map, circuit", "Circuit, truth table, K-map, excitation table", "Excitation table, circuit, K-map, truth table"],
+      "correct": 1
+    },
+    {
+      "id": 158,
+      "text": "What does it mean when a flip-flop is 'edge-triggered'?",
+      "options": ["It changes on the flat part of the clock", "It changes only at the rising or falling transition of the clock", "It changes continuously", "It never changes"],
+      "correct": 1
+    },
+    {
+      "id": 159,
+      "text": "What does a bubble at the clock input of a flip-flop symbol indicate?",
+      "options": ["Positive edge-triggered", "Negative edge-triggered", "Level-triggered", "Asynchronous"],
+      "correct": 1
+    },
+    {
+      "id": 160,
+      "text": "In a NOR latch, which input is considered active HIGH?",
+      "options": ["SET", "RESET", "Both SET and RESET", "Neither"],
+      "correct": 2
+    },
+    {
+      "id": 161,
+      "text": "In a NAND latch, which input is considered active LOW?",
+      "options": ["SET", "RESET", "Both SET and RESET", "Neither"],
+      "correct": 2
+    },
+    {
+      "id": 162,
+      "text": "What is the binary sequence of a 2-bit synchronous up counter?",
+      "options": ["00, 01, 10, 11, 00...", "00, 10, 01, 11, 00...", "11, 10, 01, 00, 11...", "00, 11, 01, 10, 00..."],
+      "correct": 0
+    },
+    {
+      "id": 163,
+      "text": "How many flip-flops does a Johnson counter with 10 states require?",
+      "options": ["3", "4", "5", "10"],
+      "correct": 2
+    },
+    {
+      "id": 164,
+      "text": "What is a ring counter?",
+      "options": ["A counter using only AND gates", "A shift register with feedback from last to first flip-flop", "A counter that counts in a circle", "A frequency divider"],
+      "correct": 1
+    },
+    {
+      "id": 165,
+      "text": "Which flip-flop has the least number of 'don't care' terms in its excitation table?",
+      "options": ["SR", "JK", "D", "T"],
+      "correct": 2
+    },
+    {
+      "id": 166,
+      "text": "What is a programmable logic device (PLD)?",
+      "options": ["A fixed-function IC", "A reconfigurable IC whose function is set by the user", "A microprocessor", "A memory chip"],
+      "correct": 1
+    },
+    {
+      "id": 167,
+      "text": "What is the main purpose of using K-maps in digital design?",
+      "options": ["To draw circuits", "To minimize Boolean expressions", "To count states", "To calculate delays"],
+      "correct": 1
+    },
+    {
+      "id": 168,
+      "text": "What is the state of a flip-flop after a power-on reset?",
+      "options": ["Unknown", "Always 0", "Always 1", "Depends on the specific flip-flop design"],
+      "correct": 3
+    },
+    {
+      "id": 169,
+      "text": "What is the difference between a combinational and sequential circuit in terms of output timing?",
+      "options": ["Combinational has memory, sequential doesn't", "Sequential output depends on clock timing, combinational is instantaneous (after propagation delay)", "Both depend on clock", "Neither depends on clock"],
+      "correct": 1
+    },
+    {
+      "id": 170,
+      "text": "What is the purpose of feedback in a sequential circuit?",
+      "options": ["To reduce noise", "To create memory by feeding output back to input", "To increase speed", "To reduce power"],
+      "correct": 1
     }
   ]
 }
