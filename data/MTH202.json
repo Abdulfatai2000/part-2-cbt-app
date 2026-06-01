@@ -803,6 +803,996 @@
       "text": "If w = e^(2πi), find Σ(-1)ʲwʲ from j=0 to ∞.",
       "options": ["2", "1/2", "0", "1"],
       "correct": 1
+    },
+    {
+      "id": 1,
+      "text": "The locus of Re(1/z) = 1/8 describes:",
+      "options": [
+        "Circle center (4,0), radius 2",
+        "Circle center (2,0), radius 4",
+        "Circle center (2,0), radius 2",
+        "Circle center (4,0), radius 4"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 2,
+      "text": "The canonical form of Q = x₁² + 24x₁x₂ - 6x₂² is:",
+      "options": [
+        "Q = 10y₁² - 15y₂²",
+        "Q = 10y₁² + 15y₂²",
+        "Q = 10y₁² + 5y₂²",
+        "Q = 10y₁² - 5y₂²"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 3,
+      "text": "The kernel of T: ℝ³→ℝ² defined by T(x,y,z) = (x,x) is:",
+      "options": [
+        "span{(0,1,0),(0,0,1)}",
+        "span{(0,0,1)}",
+        "span{(0,1,0)}",
+        "span{(1,0,1)}"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 4,
+      "text": "If A and B are invertible n×n matrices, which is NOT true?",
+      "options": [
+        "(AB)⁻¹BAB = B",
+        "AB(AB)⁻¹B = B",
+        "(AB)⁻¹AB = I",
+        "(AB)⁻¹A = B⁻¹"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 5,
+      "text": "For S={(1,0,-1),(1,2,1),(0,-3,2)}, which is/are true? I. S is linearly dependent. II. S spans ℝ³. III. S is a basis for ℝ³.",
+      "options": [
+        "I and III",
+        "I and II",
+        "I only",
+        "II and III"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 6,
+      "text": "Eigenvalues of the skew-symmetric matrix A (with a,b,c nonzero) are:",
+      "options": [
+        "a+bi and a-bi",
+        "a and b",
+        "0 or purely imaginary",
+        "a and c"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 7,
+      "text": "Kernel of T: ℝ²→ℝ² defined by T(x,y) = (x,0) is:",
+      "options": [
+        "{(0,y) | y∈ℝ}",
+        "{(0,0)}",
+        "{(x,0) | x∈ℝ}",
+        "{(0,1)}"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 8,
+      "text": "If (1+i)(1+2i)...(1+ni) = a+ib, then 2×5×10...(1+n²) equals:",
+      "options": ["2a+3b", "a²+b²", "2a-3b", "a²-b²"],
+      "correct": 1
+    },
+    {
+      "id": 9,
+      "text": "Let f(x,y)=x³y. Find directional derivative in direction i+3j at (2,3).",
+      "options": ["6√10", "10√6", "3√10", "10√3"],
+      "correct": 0
+    },
+    {
+      "id": 10,
+      "text": "Dimension of W spanned by {(1,-2,5,-3),(2,3,1,-4),(3,8,-3,-5)} is:",
+      "options": ["1", "0", "3", "2"],
+      "correct": 3
+    },
+    {
+      "id": 11,
+      "text": "Eigenbasis of A = [6 -3; 4 -1] for ℝ² is:",
+      "options": [
+        "{(3,1),(1,4)}",
+        "{(3,4),(1,1)}",
+        "{(3,3),(1,4)}",
+        "{(1,3),(4,1)}"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 12,
+      "text": "Which is NOT necessarily true of a vector space? I. Cannot have more than one basis. II. Number of elements in every basis is same. III. Every vector space has a finite basis.",
+      "options": [
+        "I and II",
+        "I and III",
+        "II and III",
+        "I, II, and III"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 13,
+      "text": "Which matrix is orthogonal?",
+      "options": [
+        "[cosθ -sinθ 0; sinθ cosθ 0; 0 0 1]",
+        "[cosθ sinθ 0; -sinθ cosθ 0; 0 0 1]",
+        "[cosθ sinθ 0; sinθ cosθ 0; 0 0 1]",
+        "[sinθ cosθ 0; cosθ -sinθ 0; 0 0 1]"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 14,
+      "text": "Curl of A = zeθ in cylindrical coordinates is:",
+      "options": [
+        "-eρ + (z/ρ)ez",
+        "-eρ - (z/ρ)ez",
+        "eρ + (z/ρ)ez",
+        "eρ - (z/ρ)ez"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 15,
+      "text": "Find p for which A = 3y⁴z²i + 4x³z²j + px²y²zk is solenoidal.",
+      "options": ["1", "-1", "0", "2"],
+      "correct": 2
+    },
+    {
+      "id": 16,
+      "text": "Square roots of i lie in which quadrants?",
+      "options": [
+        "1st and 2nd",
+        "2nd and 4th",
+        "3rd and 4th",
+        "1st and 3rd"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 17,
+      "text": "For v=(3,-1,0,-1) to be in span{(1,0,2,1),(4,2,-1,3)}, determinant condition gives:",
+      "options": [
+        "Linearly dependent",
+        "Linearly independent",
+        "Cannot be determined",
+        "None"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 18,
+      "text": "Rank of A = [a₁₁ a₁₂; a₂₁ a₂₂] where aᵢⱼ = 2^(i+j-2) is:",
+      "options": ["2", "3", "0", "1"],
+      "correct": 3
+    },
+    {
+      "id": 19,
+      "text": "Rank-Nullity Theorem states:",
+      "options": [
+        "rank(T) + nullity(T) = dim(V)",
+        "rank(T) + nullity(T) = dim(W)",
+        "rank(T) - nullity(T) = dim(V)",
+        "rank(T) × nullity(T) = dim(V)"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 20,
+      "text": "Which transformation is linear?",
+      "options": [
+        "T(x,y) = (x²,xy)",
+        "T(x,y) = (0,y)",
+        "T(x,y) = (x²,yx)",
+        "T(x,y) = (x²,y²)"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 21,
+      "text": "A linear map T preserves all EXCEPT:",
+      "options": [
+        "Addition",
+        "Multiplication",
+        "Scalar multiplication",
+        "T(0) = 0"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 22,
+      "text": "det(AB) where det(A) = -abc and det(B) = 0 equals:",
+      "options": ["-abc", "0", "abc", "1"],
+      "correct": 1
+    },
+    {
+      "id": 23,
+      "text": "The system x₁-x₂+2x₃=1, 2x₁+2x₃=1, x₁-3x₂+4x₃=2 has:",
+      "options": [
+        "Unique solution",
+        "No solution",
+        "Infinitely many solutions",
+        "Two solutions"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 24,
+      "text": "Which determinant property is NOT true?",
+      "options": [
+        "det(A+B) = det(A) + det(B)",
+        "det(AB) = det(A)·det(B)",
+        "det(A^T) = det(A)",
+        "Swapping rows multiplies det by -1"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 25,
+      "text": "Euler representation of i^i is:",
+      "options": [
+        "e^(π/2 + 2kπ)",
+        "e^(-i(-π/2+2kπ))",
+        "e^(-(π/2+2kπ))",
+        "e^(-i(π/2+2kπ))"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 26,
+      "text": "Simplify (1 - i)¹².",
+      "options": ["32", "-32", "-64", "64"],
+      "correct": 2
+    },
+    {
+      "id": 27,
+      "text": "Image of T(x,y,z) = (x,x) is:",
+      "options": [
+        "span{(0,0)}",
+        "span{(1,1)}",
+        "span{(1,0)}",
+        "span{(0,1)}"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 28,
+      "text": "Which is a subspace of ℝ³?",
+      "options": [
+        "W = {(x,y,z): y-z+1=0}",
+        "W = {(x,y,z): x=-z, x=y}",
+        "W = {(x,y,z): x+2y-3z=4}",
+        "W = {(x,y,z): x²+y²=1}"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 29,
+      "text": "If rank(T: ℝ³→ℝ³) = 2, then nullity(T) = ?",
+      "options": ["0", "3", "1", "2"],
+      "correct": 2
+    },
+    {
+      "id": 30,
+      "text": "An eigenvector of A = [0 1; 0 0] is:",
+      "options": ["(-3,1)", "(1,-3)", "(0,-3)", "(-3,0)"],
+      "correct": 3
+    },
+    {
+      "id": 31,
+      "text": "Solve for x (x ≠ a ≠ b): det[x a b; x² a² b²; a+b x+b x+a] = 0.",
+      "options": ["-a+b", "a-b", "a+b", "-a-b"],
+      "correct": 3
+    },
+    {
+      "id": 32,
+      "text": "Unit normal to x²+y²+z²=5 at (0,1,2) is:",
+      "options": [
+        "(0,1,2)/√5",
+        "(1,1,1)/√5",
+        "(1,1,-1)/√5",
+        "(1,-1,1)/√5"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 33,
+      "text": "If A⁻¹ exists, which is NOT true?",
+      "options": [
+        "Nullity of A is zero",
+        "Rank(A) = n",
+        "A is singular",
+        "A is invertible"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 34,
+      "text": "If rank(A) = r < n, which is true?",
+      "options": [
+        "A is invertible",
+        "det(A) = 0",
+        "A is nonsingular",
+        "Nullity of A is zero"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 35,
+      "text": "Diagonalize A = [5 3; 3 5] for ℝ².",
+      "options": [
+        "diag(1,7)",
+        "diag(2,8)",
+        "diag(4,10)",
+        "diag(3,9)"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 36,
+      "text": "Which is NOT a basis for ℝ³ containing S={(1,0,2),(1,1,4)}?",
+      "options": [
+        "{(1,0,2),(1,1,4),(0,1,3)}",
+        "{(1,0,2),(1,1,4),(2,1,6)}",
+        "{(1,0,2),(1,1,4),(3,1,3)}",
+        "{(1,0,2),(1,1,4),(1,1,3)}"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 37,
+      "text": "For lower triangular B with diag entries 1,a,b,c, find (1,2) entry of B⁻¹.",
+      "options": ["b/c", "c/b", "1", "0"],
+      "correct": 3
+    },
+    {
+      "id": 38,
+      "text": "Nullity of matrix [1 2 -1 0; 4 -2 3 1; 6 2 1 1; 3 -4 4 1] is:",
+      "options": ["2", "0", "1", "3"],
+      "correct": 2
+    },
+    {
+      "id": 39,
+      "text": "Find ∇f in cylindrical coordinates for f(ρ,θ,z)=ρ²θ²z².",
+      "options": [
+        "2ρθ²z²eρ + 2ρθz²eθ + 2ρ²θ²zez",
+        "2ρθ²z²eρ + 2ρθz²eθ + 2ρ²θ²zez",
+        "2ρθ²z²eρ + 2ρ²θz²eθ + 2ρ²θzez",
+        "ρθ²z²eρ + ρθz²eθ + ρ²θ²zez"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 40,
+      "text": "The system x₁+x₂+2x₃=1, x₂+2x₃=2, x₁+2x₂+4x₃=3 has:",
+      "options": [
+        "Unique solution",
+        "Infinitely many solutions",
+        "No solution",
+        "x₁=1,x₂=2,x₃=0"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1,
+      "text": "Write v = t²+4t-3 as linear combination of u₁=t²-2t+5, u₂=2t²-3t, u₃=t+3.",
+      "options": [
+        "v = 2u₁ - 3u₂ + 4u₃",
+        "v = -2u₁ + 3u₂ - 4u₃",
+        "v = -3u₁ + 2u₂ + 4u₃",
+        "v = 3u₁ - 2u₂ - 4u₃"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 2,
+      "text": "Which is true about Hermitian matrices? I. Diagonal entries are real. II. A = A*. III. Eigenvalues are real.",
+      "options": [
+        "I only",
+        "I, II, and III",
+        "I and II only",
+        "II and III only"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "text": "Find ∇·[(a·eρ)eρ] in cylindrical coordinates where a = ρcosθeρ + ρsinθeθ + zez.",
+      "options": [
+        "2cosθ",
+        "cosθ",
+        "2sinθ",
+        "sinθ"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 4,
+      "text": "Which pair of matrices CANNOT be similar?",
+      "options": [
+        "[1 2; 3 4] and [2 4; 4 5]",
+        "[1 0; 0 1] and [2 0; 0 2]",
+        "[1 2; 3 4] and its transpose",
+        "[0 1; 0 0] and [0 0; 1 0]"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 5,
+      "text": "If F(1,3)=(2,4) and F(0,1)=(1,1), find F(1,2).",
+      "options": ["(2,5)", "(3,3)", "(1,3)", "(4,2)"],
+      "correct": 2
+    },
+    {
+      "id": 6,
+      "text": "Find k for which the matrix is singular (determinant = 0).",
+      "options": ["1", "-1", "2", "0"],
+      "correct": 1
+    },
+    {
+      "id": 7,
+      "text": "Which is FALSE about orthogonal coordinates? I. ∇u⊥u-curve. II. ∇u∥u-curve. III. ∇u is tangent.",
+      "options": [
+        "I only",
+        "II and III",
+        "II only",
+        "III only"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 8,
+      "text": "Find P such that P⁻¹AP = diag(8,-1) for A = [5 -3; -6 2].",
+      "options": [
+        "P = [1 1; -1 -2]",
+        "P = [1 1; -1 2]",
+        "P = [1 -1; 1 2]",
+        "P = [-1 1; 2 1]"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 9,
+      "text": "Which is FALSE about subspaces U and W?",
+      "options": [
+        "U+W is a subspace",
+        "U∩W is a subspace",
+        "dim(U+W)=dimU+dimW+dim(U∩W)",
+        "U∪W is always a subspace",
+        "None of the above"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 10,
+      "text": "Volume element dV in orthogonal system (u,v,w) is given by: I. |∂r/∂u·(∂r/∂v×∂r/∂w)|dudvdw. II. huhvhwdudvdw. III. |J|dudvdw.",
+      "options": [
+        "I and II only",
+        "II and III only",
+        "II only",
+        "I, II and III"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 11,
+      "text": "Find Hermitian conjugate of the given matrix.",
+      "options": [
+        "[2-2i 4 -6+i; 5-8i 3+7i 5i]",
+        "[2+2i -4 -6+i; 5-8i 3+7i -5i]",
+        "[2+2i -4 -6+i; 5-8i 3+7i 5i]",
+        "[2+2i 4 -6-i; 5+8i 3-7i -5i]"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 12,
+      "text": "Which mapping is NOT linear?",
+      "options": [
+        "G(x,y)=(ax,by)",
+        "F(x,y)=(x-y, sin(x-y))",
+        "G(x,y)=(y,x)",
+        "F(v)=0",
+        "F(v)=v"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 13,
+      "text": "Geometrically, |z+2i|+|z-2i|=6 is:",
+      "options": [
+        "Ellipse foci (-2,0),(2,0), major axis 6",
+        "Ellipse foci (0,-2),(0,2), minor axis 6",
+        "Ellipse foci (0,-2),(0,2), major axis 6",
+        "Hyperbola foci (0,-2),(0,2)"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 14,
+      "text": "Which is NOT true about matrices over ℂ? I. P̄ = P. II. ᾱP = αP̄. III. P̄Q^T = Q̄^T P̄^T. IV. PQ̄ = Q̄P̄.",
+      "options": [
+        "I, II, III, IV",
+        "IV and V only",
+        "IV only",
+        "I and II only"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 15,
+      "text": "Find transition matrix from S₂={(1,0),(0,1)} to S₁={(0,1),(1,4)}.",
+      "options": [
+        "[4 1; 1 0]",
+        "[-4 1; 1 0]",
+        "[4 -1; -1 0]",
+        "[0 1; 1 4]",
+        "[1 0; 0 1]"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 16,
+      "text": "Which is TRUE about hyperbolic functions? I. sinhz=½(eᶻ-e⁻ᶻ), coshz=½(eᶻ+e⁻ᶻ). III. sinh(iz)=isinz, cosh(iz)=cosz. IV. cosh²z-sinh²z=1.",
+      "options": [
+        "I, II, IV",
+        "I and III only",
+        "II, III, IV",
+        "I, III, IV"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 17,
+      "text": "Which is FALSE? I. Upper triangular if pᵢⱼ=0 for i<j. II. Transpose of lower triangular is upper triangular. III. All triangular matrices are invertible.",
+      "options": [
+        "III only",
+        "I, II, IV, V",
+        "I and II only",
+        "III only"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 18,
+      "text": "For P(m×n) and Q(n×r), which is NOT true?",
+      "options": [
+        "(-P)+P=0mn",
+        "PQ=0mr ⇒ P=0mn or Q=0nr",
+        "Im·0mn = 0mn",
+        "P·0nr = 0mr",
+        "P+0mn = P"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 19,
+      "text": "Matrix for Q = 2x₁²+x₂²+x₃²+2x₁x₂-2x₁x₃-4x₂x₃ is:",
+      "options": [
+        "[2 1 -1; 1 1 -2; -1 -2 1]",
+        "[2 1 -1; 1 1 -2; -1 -2 1]",
+        "[2 1 -1; 1 1 -2; -1 -2 -1]",
+        "[1 1 -2; 1 1 -2; -1 -2 1]"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 20,
+      "text": "Which vector identity is NOT generally true? I. ∇·u = u·∇. II. ∇×(∇×u) = ∇(∇·u)-∇²u. III. ∇×(u×v) = (∇·v)u-(∇·u)v. IV. u·(∇φ) = (u·∇)φ.",
+      "options": [
+        "I only",
+        "II only",
+        "II and IV",
+        "I and III"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 1,
+      "text": "If r=xi+yj+zk, r=|r|, then ∇f'(r) is equivalent to:",
+      "options": [
+        "f'(r)r/r",
+        "f'(r)",
+        "f'(r)r",
+        "f'(r)/r²",
+        "f'(r)/r"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 2,
+      "text": "Evaluate det[9 3 10 15; 7 2 15 10; 4 5 13 25; 2 1 6 5].",
+      "options": ["0", "77", "12181", "577", "215"],
+      "correct": 0
+    },
+    {
+      "id": 3,
+      "text": "Eigenvalues of [1 0 2; 2 1 0; 2 0 1] are:",
+      "options": [
+        "-1, -1, -3",
+        "-1, -1, 3",
+        "-1, 1, -3",
+        "-1, 1, 3",
+        "1, 1, 3"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 4,
+      "text": "Write w=5t²+4t-11 as linear combination of u=2t²+3t-4 and v=t²-2t-3.",
+      "options": [
+        "w=2u+v",
+        "w=2v+u",
+        "w=2v-u",
+        "w=2u+3v",
+        "w=2u-v"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 5,
+      "text": "Nullity of [2 2 2 2; 4 6 8 10] is:",
+      "options": ["0", "4", "2", "1", "3"],
+      "correct": 2
+    },
+    {
+      "id": 6,
+      "text": "Find arg(1+i)⁴.",
+      "options": ["45°", "90°", "180°", "120°", "60°"],
+      "correct": 2
+    },
+    {
+      "id": 7,
+      "text": "Rank of the given matrix is:",
+      "options": ["1", "2", "4", "0", "3"],
+      "correct": 1
+    },
+    {
+      "id": 8,
+      "text": "Find a for which B = (ax+y²z)i + 2xyzj + (a-2)xy²k is irrotational.",
+      "options": ["-1/3", "3/4", "2", "3", "4"],
+      "correct": 3
+    },
+    {
+      "id": 9,
+      "text": "If w is a cube root of unity, evaluate w³ + 1/w³.",
+      "options": ["-1", "1", "0", "2", "-2"],
+      "correct": 3
+    },
+    {
+      "id": 10,
+      "text": "If T(2,1)=(3,4) and T(1,1)=(-1,2), find T(4,3).",
+      "options": ["(2,5)", "(0,1)", "(1,8)", "(3,2)", "(2,6)"],
+      "correct": 2
+    },
+    {
+      "id": 11,
+      "text": "Find A⁻¹ for A = [3 2 1; 1 0 0; 2 1 1].",
+      "options": [
+        "[0 -1 0; -1 1 1; 1 1 -2]",
+        "[1 0 0; 0 1 0; 0 0 1]",
+        "[0 -1 0; -1 1 1; 1 1 -2]",
+        "[0 1 0; 1 -1 -1; -1 -1 2]"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 12,
+      "text": "Basis for W spanned by {t³+t²-3t+2, 2t³+t²+t-4, 4t³+2t²-5t+2} is:",
+      "options": [
+        "{t³-t²-3t+2, 4t³+t²-5t, 7t³-t²}",
+        "{t³+t²-3, 4t³+t-5}",
+        "{t³+t²-3t+2, 4t³+t²-t, 7t³-2t²}",
+        "{t³+t²-3t+2, 4t³+3t²-5t, 7t³-t²}",
+        "{t³+t²-3t+2, 4t³+t²-5t}"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 13,
+      "text": "Find the adjoint of the given complex matrix.",
+      "options": [
+        "[-2 0 2i; 0 0 0; -2i 0 -2]",
+        "[2 0 -2i; 0 0 0; 2i 0 2]",
+        "[-2 0 0; 0 0 0; 0 0 -2]",
+        "[2 0 0; 0 0 0; 0 0 2]"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 14,
+      "text": "Find ∇²φ at (1,1,1) for φ = x/(yz) - e^(-xy).",
+      "options": [
+        "2+2e",
+        "2-2e",
+        "4-2e⁻¹",
+        "2+e⁻¹",
+        "2-e⁻¹"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 15,
+      "text": "Which is TRUE about linear map T: V→W? I. ker(T) is subspace of W. II. Range(T) is subspace of W. III. Nullity = dim(ker T). IV. rank(T)+nullity(T)=dim(W).",
+      "options": [
+        "I, II, III, IV",
+        "IV only",
+        "III only",
+        "I, II, III",
+        "I and II only"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 16,
+      "text": "Find matrix representation of T(2,3)=(2,1,2), T(3,4)=(-1,0,1) relative to standard bases.",
+      "options": [
+        "[5 -6; 8 6; -1 1]",
+        "[-4 3; 8 -6; -5 4]",
+        "[5 6; 8 6; -5 -4]",
+        "[5 8; -6 6; -1 1]"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 17,
+      "text": "Find curl(curl c) for c = 2ysinxi + (4x+yz)j + z²eʸk.",
+      "options": [
+        "(z²eʸ-2yz)i + (4-2sinx)k",
+        "(z²eʸ-2yz)i + (2cosx+2(zeʸ-y))j - z(zeʸ-2)k",
+        "(2eʸ-2yz)i + (2cosx+2zeʸ)j - 2zk",
+        "(2cosx+2(zeʸ-y))j + z(zeʸ-2)k"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 18,
+      "text": "Which is FALSE? I. Null space is a subspace. II. Vectors span V if every vector is linear combination. III. If S spans V, S is a basis. IV. (1,1,3),(2,1,-1),(3,1,-5) are independent.",
+      "options": [
+        "III only",
+        "IV only",
+        "III and IV",
+        "II only"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 19,
+      "text": "Find 1/P for P = (4+3i)/(5-3i).",
+      "options": [
+        "11/25 - 27i/25",
+        "11/25 + 27i/25",
+        "-11/25 + 27i/25",
+        "11/25 - 27i/25"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 20,
+      "text": "Evaluate Σ i^k from k=1 to 1000.",
+      "options": ["1", "0", "-1", "i"],
+      "correct": 1
+    },
+    {
+      "id": 1,
+      "text": "If a=xi+yj+zk and b=yi+zj+xk, then vectors a and b are respectively:",
+      "options": [
+        "Solenoidal & Irrotational",
+        "Irrotational & Solenoidal",
+        "Irrotational & Conservative",
+        "Solenoidal & Conservative"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "text": "Find ∇×(∇×A) for A = 3xz²i - yzj + (x+2z)k.",
+      "options": [
+        "-6xi + (6z+1)k",
+        "6zi + (6z+1)k",
+        "-6xi + (6z-1)k",
+        "-6xi + 6zj"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 3,
+      "text": "For r=√(x²+y²+z²), ∂r/∂x and ∇²(ln r) are:",
+      "options": [
+        "x/r and 1/r²",
+        "x/r and 1/r",
+        "x/r² and 1/r²",
+        "x/r and 2/r²"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 4,
+      "text": "Unit normal to e^(x²+y²)+ln(x²+z²)-cos(y²+z²)=4 at (1,0,0) is:",
+      "options": ["j", "k", "i", "i+j"],
+      "correct": 2
+    },
+    {
+      "id": 5,
+      "text": "Modulus and principal argument of (1-i)⁸ are:",
+      "options": [
+        "4 and π/4",
+        "16 and -π/4",
+        "16 and π/4",
+        "16 and 0"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 6,
+      "text": "|(z-1)/(z+2)|²=2 defines:",
+      "options": [
+        "Circle radius 3, center (-4,1)",
+        "Ellipse major 2, minor 1",
+        "Hyperbola major 9, minor 8",
+        "Circle radius 3√2, center (-5,0)"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 7,
+      "text": "A fifth root of (1-i) is:",
+      "options": [
+        "2^(1/10)(cos63°+isin63°)",
+        "2^(1/10)(cos10°+isin10°)",
+        "2^(1/10)(cos5°+isin5°)",
+        "2^(1/10)(cos100°+isin100°)"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 8,
+      "text": "sin²θcosθ expressed in multiple angles of cosine is:",
+      "options": [
+        "(1/4)cosθ - (1/4)cos3θ",
+        "(1/4)cosθ + (3/4)cos3θ",
+        "(3/4)cosθ - (1/4)cos3θ",
+        "(1/4)cosθ - (3/4)cos3θ"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 9,
+      "text": "Span of {u=(1,1,1), v=(1,2,3), w=(1,5,8)} is:",
+      "options": [
+        "{(1,0,0),(0,1,0),(0,0,1)}",
+        "{(0,0,1),(0,1,0),(1,0,0)}",
+        "ℝ³",
+        "{(0,1,0),(1,1,0),(0,0,1)}"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 10,
+      "text": "Which set is a basis for ℝ³?",
+      "options": [
+        "{(1,0,-1),(1,1,1)}",
+        "{(1,2,3),(1,3,5),(1,0,1),(2,3,0)}",
+        "{(1,1,1),(1,0,1),(2,2,2)}",
+        "{(1,1,1),(1,0,1),(0,1,1)}"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 11,
+      "text": "Conjugate transpose of the given complex matrix is:",
+      "options": [
+        "[2-2i 4 -6+i; 5-8i 3+7i 5i]",
+        "[2+2i -4 -6+i; 5-8i 3+7i 5i]",
+        "[2+2i -4 -6+i; 5-8i 3+7i -5i]",
+        "[-2-2i 4 -6-i; -5+8i -3-7i 5i]"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 12,
+      "text": "Rank and nullity of the given matrix are:",
+      "options": ["4 and 2", "3 and 3", "4 and 0", "2 and 4"],
+      "correct": 2
+    },
+    {
+      "id": 13,
+      "text": "Which is FALSE about a unitary matrix?",
+      "options": [
+        "Columns are mutually orthogonal",
+        "Rows are mutually orthogonal",
+        "If λ is eigenvalue, |λ|=1",
+        "Ā = A⁻¹"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 14,
+      "text": "Characteristic equation of the given matrix is:",
+      "options": [
+        "λ²-5λ+6=0",
+        "λ²+5λ-6=0",
+        "λ²-5λ-6=0",
+        "λ²+5λ+6=0"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 15,
+      "text": "Which statement is NOT equivalent to the others for an n×n matrix A?",
+      "options": [
+        "A is diagonalizable",
+        "A is similar to diagonal D",
+        "A has distinct eigenvalues",
+        "A has n linearly independent eigenvectors"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 16,
+      "text": "Diagonal matrix similar to [1 2; 2 1] is:",
+      "options": [
+        "diag(2,1)",
+        "diag(3,-1)",
+        "diag(1,1)",
+        "diag(-2,1)"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 17,
+      "text": "If A and B are similar, which is FALSE?",
+      "options": [
+        "Trace(A)=Trace(B)",
+        "Rank(A)=Rank(B)",
+        "Det(A)=Det(B)",
+        "∃ nonsingular P such that B=P⁻¹AB"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 18,
+      "text": "If u=(1,-3,2), v=(2,-1,1), w=(1,7,-4), write u as combination of v and w.",
+      "options": [
+        "u = v - ½w",
+        "u = (2/3)v + ½w",
+        "u = (2/3)v - (1/3)w",
+        "u = w - 2v"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 19,
+      "text": "Which mapping is linear?",
+      "options": [
+        "T(x,y,z)=(x+y+z, 0)",
+        "T(x,y,z)=(x+y+z, -1)",
+        "T(x,y,z)=(x+y+z, 1)",
+        "T(x,y,z)=(x+y+z, 2)"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 20,
+      "text": "If [1 1; 2 1] is transition matrix from e to f, find transition from f to e.",
+      "options": [
+        "[-1 1; 2 -3]",
+        "[1 -1; -2 1]",
+        "[-1/2 -6; -3/2 4]",
+        "[4 6; 3/2 1/2]"
+      ],
+      "correct": 0
     }
   ]
 }
