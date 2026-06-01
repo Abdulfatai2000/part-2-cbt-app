@@ -3,20 +3,805 @@
   "questions": [
     {
       "id": 1,
-      "text": "What is the derivative of x²?",
-      "options": ["2x", "x²", "2", "x"],
-      "correct": 0
+      "text": "Find the value of p for which the vector function A = 3y⁴z²i + 4x³z²j + px²y²zk is solenoidal.",
+      "options": ["1", "-1", "0", "2"],
+      "correct": 2
     },
     {
       "id": 2,
-      "text": "What is ∫ 2x dx?",
-      "options": ["x² + C", "2x² + C", "x + C", "2 + C"],
-      "correct": 0
+      "text": "Let f in cylindrical coordinates (ρ,θ,z) be f(ρ,θ,z) = ρθz. Find ∇f.",
+      "options": [
+        "θz²eρ + zρeθ + ρ²θez",
+        "θz²eρ + zeθ + ρθ³ez",
+        "θ²zeρ + zρeθ + ρθ³ez",
+        "θzeρ + zeθ + ρθez"
+      ],
+      "correct": 3
     },
     {
       "id": 3,
-      "text": "What is the limit of sin(x)/x as x → 0?",
-      "options": ["0", "1", "∞", "Undefined"],
+      "text": "Simplify (1 + i)¹⁰.",
+      "options": ["32i", "32(1 - i)", "32(1 + i)", "2(1 - i)"],
+      "correct": 0
+    },
+    {
+      "id": 4,
+      "text": "The Euler representation for z = (3 + i)/(2 - i) is:",
+      "options": [
+        "z = √2 e^(iπ/3)",
+        "z = √2 e^(-iπ/4)",
+        "z = √2 e^(iπ/4)",
+        "z = √2 e^(i3π/4)"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 5,
+      "text": "The curl of A = θeρ in cylindrical coordinates (ρ,θ,z) is:",
+      "options": [
+        "-ez/ρ²",
+        "-ez/ρ",
+        "-eρ/ρ³",
+        "+ez/ρ²"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 6,
+      "text": "The polar form of z = (√3 + i)/(1 - i) is:",
+      "options": [
+        "z = 2√2 ∠ -15°",
+        "z = 2√2 ∠ 15°",
+        "z = √2 ∠ 75°",
+        "z = 2√2 ∠ 45°"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 7,
+      "text": "If z is a complex number, the minimum value of |z| + |z - 1| is:",
+      "options": ["1", "0", "2", "4"],
+      "correct": 0
+    },
+    {
+      "id": 8,
+      "text": "Let Re((z + 1)/(z + i)) = 1. Then z lies on:",
+      "options": [
+        "a circle",
+        "a straight line",
+        "an ellipse",
+        "a parabola"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 9,
+      "text": "If (1 + i)(1 + 2i)...(1 + ni) = a + ib, then 2×5×10...(1 + n²) equals:",
+      "options": ["2a - 3b", "a² + b²", "a² - b²", "2a + 3b"],
+      "correct": 1
+    },
+    {
+      "id": 10,
+      "text": "The divergence of V = ρcosθ eρ + ρsinθ eθ + z ez in cylindrical coordinates is:",
+      "options": [
+        "3cosθ + 1",
+        "3sinθ + 1",
+        "-3sinθ + 1",
+        "3cosθ - 1"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 11,
+      "text": "Find curl of F = -yi + xyj + zk.",
+      "options": [
+        "i + (y - 1)k",
+        "(y - 1)k",
+        "(y - 1)j",
+        "(y - 1)i + k"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 12,
+      "text": "Let z = cosθ + isinθ. Find z¹⁵ - z⁻¹⁵.",
+      "options": [
+        "2i sin15θ",
+        "2(cos15θ + isin15θ)",
+        "2cos15θ",
+        "2(cos15θ - sin15θ)"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 13,
+      "text": "Find the divergence of H = xyi + (5 - z²)j + (x² + y²)k at (0,2,1).",
+      "options": ["-1", "1", "2", "0"],
+      "correct": 2
+    },
+    {
+      "id": 14,
+      "text": "Simplify (1 + sinθ + icosθ)/(1 + sinθ - icosθ).",
+      "options": [
+        "sin2θ + icos2θ",
+        "cosθ + isinθ",
+        "-sinθ - icosθ",
+        "sinθ + icosθ"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 15,
+      "text": "If z₁ = 3 + 4i and z₂ = 1 + 2i, the moduli and arguments of z₁z₂ and z₁/z₂ are:",
+      "options": [
+        "5√5, 116.57° and 5√5, 349.70°",
+        "√5, -81.86° and 5√5, 116.57°",
+        "5√5, 349.70° and √5, 116.57°",
+        "5√5, 116.57° and √5, 349.70°"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 16,
+      "text": "For any non-zero vector field A, curl(A) is:",
+      "options": [
+        "neither irrotational nor solenoidal",
+        "solenoidal",
+        "not solenoidal",
+        "both rotational and irrotational"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 17,
+      "text": "Find the unit vector normal to x² + y² + z² = 5 at (0,1,2).",
+      "options": [
+        "(1, -1, 1)/√5",
+        "(1, 1, -1)/√5",
+        "(1, 1, 1)/√5",
+        "(0, 1, 2)/√5"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 18,
+      "text": "Evaluate i(1 + i)(2 - i)/(3 + 4i).",
+      "options": [
+        "9/25 - 13i/25",
+        "13/25 - 9i/25",
+        "13/25 + 9i/25",
+        "9/25 + 13i/25"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 19,
+      "text": "Let f(x,y) = x²y. Find the derivative in the direction of i + 2j at (3,2).",
+      "options": ["5√6", "6√5", "3√5", "5√3"],
+      "correct": 1
+    },
+    {
+      "id": 20,
+      "text": "Find ∇r⁻ᵐ (m > 0) in spherical coordinates where r is the position vector magnitude.",
+      "options": [
+        "-mρ⁻ᵐ⁻¹eθ + ρ⁻ᵐeθ",
+        "m(m+1)ρ⁻ᵐ⁻²eθ",
+        "m(m+1)ρ⁻ᵐ⁻²eφ",
+        "-mρ⁻ᵐ⁻¹eρ"
+      ],
+      "correct": 3
+    }, 
+    {
+      "id": 1,
+      "text": "In an orthogonal coordinate system (u,v,w), the scalar product ∇u·(∇v×∇w) equals:",
+      "options": [
+        "hu + hv + hw",
+        "hu·hv·hw",
+        "1/(hu·hv·hw)",
+        "hu + hv - hw",
+        "None of the above"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "text": "If f(r) = rⁿ + ln r, find ∇²f(r).",
+      "options": [
+        "n(n-1)rⁿ⁻² + 2/r²",
+        "(n²-n)rⁿ⁻² + 3/r²",
+        "[n(n+1)rⁿ + 1]/r²",
+        "[n(n-1)rⁿ - 1]/r²",
+        "None of the above"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 3,
+      "text": "Evaluate [5(cos40°+isin40°)] × [4(cos80°+isin80°)]. ",
+      "options": [
+        "20 + 20√3 i",
+        "10 - 10√3 i",
+        "-10 + 10√3 i",
+        "-20 + 20√3 i",
+        "None of the above"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 4,
+      "text": "For coordinates x = uv cos w, y = uv sin w, z = ½(u² - v²) with hu = hv = √(u²+v²), find the Jacobian.",
+      "options": [
+        "uv(u² + v²)²",
+        "uv(u² + v²)",
+        "(u² + v²)",
+        "uv",
+        "None of the above"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 5,
+      "text": "Which set of functions is linearly independent?",
+      "options": [
+        "{eᵗ, e²ᵗ, e³ᵗ}",
+        "{sin t, cos t, tan t}",
+        "{eᵗ, sin t, t²}",
+        "{t, t², t³}",
+        "None of the above"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 6,
+      "text": "If |(z-3)/(z+3)| = 2, find the locus of z.",
+      "options": [
+        "Circle center (3,0), radius 2",
+        "Circle center (-3,0), radius 4",
+        "Circle center (5,0), radius 3",
+        "Circle center (-5,0), radius 4",
+        "None of the above"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 7,
+      "text": "Which statement about coordinate transformations is/are true? I. The Jacobian is zero if transformation is singular. II. Scale factors determine geometric elements. III. If Jacobian is zero, there is no change.",
+      "options": [
+        "I and II only",
+        "II and III only",
+        "I and III only",
+        "I, II and III",
+        "None of the above"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 8,
+      "text": "Which identities are correct?",
+      "options": [
+        "∇×(φv) = ∇φ×v + φ∇×v and ∇·(φv) = ∇φ·v + φ∇·v",
+        "∇×(φv) = ∇φ·v + φ∇×v and ∇·(φv) = ∇φ×v + φ∇·v",
+        "∇×(φv) = φ∇×v and ∇·(φv) = φ∇·v",
+        "∇×(φv) = ∇φ×v and ∇·(φv) = ∇φ·v",
+        "None of the above"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 9,
+      "text": "Find the unit normal to e^(x²+y²+z²) = 2 at (x,y,z).",
+      "options": [
+        "(xi+yj+zk)/(e√2)",
+        "√2(xi+yj+zk)",
+        "e^√2(xi+yj+zk)",
+        "(xi+yj+zk)/√2",
+        "(xi+yj+zk)/√(12π)"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 10,
+      "text": "Which is incorrect about a field?",
+      "options": [
+        "A conservative field is always irrotational",
+        "An irrotational field is always conservative",
+        "A gradient field is potential",
+        "A potential field is conservative",
+        "Line integral of conservative field is path-independent"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 11,
+      "text": "Which statement about ∇ on r is not true? I. ∇×r = 0. II. ∇·r = 3. III. ∇⊗r is not a vector. IV. ∇(∇·r) = 0.",
+      "options": [
+        "III only",
+        "III and IV only",
+        "I, II, III and IV",
+        "IV only",
+        "None of the above"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 12,
+      "text": "Which is not true about an n-dimensional vector space V with bases B and C?",
+      "options": [
+        "Cardinality of B and C are equal",
+        "Any n+1 vectors in V are linearly independent",
+        "Any n+1 vectors in V are linearly dependent",
+        "B spans V",
+        "B has n linearly independent vectors"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 13,
+      "text": "Solve z²(1 - z²) = 16.",
+      "options": [
+        "-½ ± i√7/2 and ½ ± i√7/2",
+        "-3 ± i√7 and 3 ± i√7",
+        "-3/2 ± i√7/2 and 3/2 ± i√7/2",
+        "½ ± 3i√7/2 and -½ ± 3i√7/2",
+        "None of the above"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 14,
+      "text": "In cylindrical coordinates, if a = zi - 2xj + yk, find the component along eρ.",
+      "options": [
+        "ρ sinθ",
+        "z cosθ - 2ρ cosθ sinθ",
+        "z cosθ + 2ρ cos²θ",
+        "-z cosθ - 2ρ cos²θ",
+        "-z cosθ + 2ρ sinθ"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 15,
+      "text": "If w is constant and r is position vector, ∇×(w/2 × r) = ?",
+      "options": [
+        "w/2 × r",
+        "w/2",
+        "0",
+        "w",
+        "3w/2"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 16,
+      "text": "Let u=(1,2,3), v=(2,3,1). Write w=(2,4,5) as linear combination of u and v.",
+      "options": [
+        "w = u + v",
+        "w = u - 2v",
+        "w = (3/4)u + (5/3)v",
+        "w = (5/3)u + (1/3)v",
+        "w = (2/3)u + (1/3)v"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 17,
+      "text": "Which is NOT necessarily true for x,y ∈ ℝ⁴?",
+      "options": [
+        "x - y ∈ ℝ⁴",
+        "x + y ∈ ℝ⁴",
+        "xy ∈ ℝ⁴",
+        "x + y = y + x",
+        "3x + 4y ∈ ℝ⁴"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 18,
+      "text": "Evaluate ((1 + i√3)/(1 - i√3))²⁰.",
+      "options": [
+        "-½ - i√3/2",
+        "½ - i√3/2",
+        "½ + i√2/2",
+        "-½ + i√3/2",
+        "None of the above"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 19,
+      "text": "Which properties of complex numbers are true? I. |z₁z₂| = |z₁||z₂|. II. arg(z₁z₂) = arg(z₁) + arg(z₂). III. |z₁+z₂| ≤ |z₁|+|z₂|. IV. |z₁±z₂| ≥ ||z₁|-|z₂||.",
+      "options": [
+        "I and II only",
+        "I and III only",
+        "II and III only",
+        "I, II, and III only",
+        "I, II, III, and IV"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 20,
+      "text": "For subspaces U and W of V, which is NOT necessarily true?",
+      "options": [
+        "U + W ⊂ V",
+        "U ∩ W is a subspace",
+        "U ∪ W is a subspace",
+        "U ∩ W ≠ ∅",
+        "U + W is a subspace"
+      ],
+      "correct": 3
+    }, 
+    {
+      "id": 1,
+      "text": "If z is a cube root of unity, evaluate Σ(1 - z - z²)^(-2r) from r=0 to ∞.",
+      "options": ["3/4", "4/3", "3/2", "2/3", "-3/2"],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "text": "If r = xi + yj + zk and r = |r|, find ∇×(r²r).",
+      "options": ["0(scalar)", "1/r²", "2rr", "2r", "0(vector)"],
+      "correct": 4
+    },
+    {
+      "id": 3,
+      "text": "Given sinθ = (e^(iθ)-e^(-iθ))/(2i) and sinhθ = (e^θ-e^(-θ))/2, which is true?",
+      "options": [
+        "sinθ = -sinh²θ",
+        "sinhθ = sin²θ",
+        "sin(iθ) = i sinhθ",
+        "sinθ = sinhθ",
+        "sinh(iθ) = -sinθ"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 4,
+      "text": "If B = x₁³y₁²i + eʸj + x₂³sin z k, find div curl B.",
+      "options": [
+        "(⅓x⁻²y⁻¹)i + eʸj + x cos z k",
+        "⅓x⁻²y⁻¹ + eʸ + x cos z",
+        "0 (scalar)",
+        "0 (vector)",
+        "(1/x)eʸj + (½)x⁻¹cos z k"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 5,
+      "text": "Which mapping is not linear?",
+      "options": [
+        "F(x) = 3x + 1 on ℝ",
+        "F(x₁,x₂) = (2x₁-x₂, -4x₁+x₂) on ℝ²→ℝ²",
+        "F(x₁,x₂) = x₁ - x₂ on ℝ²→ℝ",
+        "F(x,y) = (2x+y, x-y, 3x+2y) on ℝ²→ℝ³",
+        "F(x,y) = 2x+3y on ℝ²→ℝ"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 6,
+      "text": "The volume element for x=½(u²-v²), y=uv, z=z is:",
+      "options": [
+        "(u+v)dudvdz",
+        "0",
+        "(u²+v²)dudvdz",
+        "(u²-v²)dudvdz",
+        "2uv dudvdz"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 7,
+      "text": "Write w=(1,3,8) as linear combination of u=(1,2,3) and v=(2,3,1).",
+      "options": [
+        "w = u + 2v",
+        "w = 3u - v",
+        "w = u - 2v",
+        "w = u + v",
+        "w = 2u + v"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 8,
+      "text": "If a vector space V has dimension n, then:",
+      "options": [
+        "(n+1) vectors form a linearly independent set",
+        "n vectors form a linearly dependent set",
+        "(n+1) vectors form a linearly dependent set",
+        "n vectors form a linearly independent set",
+        "The basis of V is n"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 9,
+      "text": "Find constant a for which A = (axy - z³)i + (a-2)x²j + (1-a)xz²k is conservative.",
+      "options": ["4", "2", "1/2", "-4", "-2"],
+      "correct": 0
+    },
+    {
+      "id": 10,
+      "text": "Find ∂²/∂x²(rⁿ⁻¹) where r² = x²+y²+z².",
+      "options": [
+        "(n-1)rⁿ⁻³{x²(n-2)+(r²-x³)}",
+        "(n-1)rⁿ⁻⁵{x²(n-2)+(r²-x²)}",
+        "(n-1)rⁿ⁻³{x²(n-2)+(r²-x²)}",
+        "n(n-1)rⁿ⁻²",
+        "None of the above"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 11,
+      "text": "If x=(1,0), y=(0,1), T(x)=(3,5), T(y)=(-1,2), z=(6,2), find T(z).",
+      "options": ["(4,9)", "(8,15)", "(20,35)", "(-4,9)", "(16,34)"],
+      "correct": 4
+    },
+    {
+      "id": 12,
+      "text": "If φ = x²y + xyz + x²y²z and A = xyi + yzj + xzk, find (∇φ)×A at (1,1,-1).",
+      "options": [
+        "2i + 3j - k",
+        "4i + j + 3k",
+        "2i - 3j - k",
+        "i + j + k",
+        "-3j - k"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 13,
+      "text": "Find dim W for W spanned by {t³+t²-3t+2, 2t³+t²+t-4, 4t³+2t²-5t+2}.",
+      "options": ["3", "1", "5", "4", "2"],
+      "correct": 0
+    },
+    {
+      "id": 14,
+      "text": "Which is NOT necessarily true for a subspace W of V?",
+      "options": [
+        "If u,v ∈ W then u-v ∈ W",
+        "0 ∈ W",
+        "W is non-empty",
+        "W is never a null space",
+        "W is a linear vector space over ℝ"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 15,
+      "text": "Describe the locus of Re(1/z) = 1/8 on the z-plane.",
+      "options": [
+        "Circle center (4,0), radius 4",
+        "Circle center (-4,0), radius 2√2",
+        "Circle center (0,-4), radius 2√2",
+        "Circle center (8,0), radius 2√2",
+        "Circle center (2,2), radius 2"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 16,
+      "text": "Find k = k(n) such that ((1+i)/(1-i))ᵏ = 1.",
+      "options": ["4n+2", "n+2", "2n", "4n", "n+4"],
+      "correct": 3
+    },
+    {
+      "id": 17,
+      "text": "Which set is linearly independent in ℝ²? I. {(1,2),(-1,1),(1,3)}. II. {(1,1),(-1,1)}. III. {(2,2),(-1,-1)}.",
+      "options": [
+        "II and III only",
+        "I only",
+        "I and II only",
+        "III only",
+        "II only"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 18,
+      "text": "Find real a,b such that (½i - ¾)a - (-5/7 + ⅔i)b = 19/28 - 5i/6.",
+      "options": [
+        "a=1/3, b=1/2",
+        "a=1/2, b=1/3",
+        "a=1/2, b=1",
+        "a=1, b=1",
+        "a=1, b=2"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 19,
+      "text": "Which statement about complex numbers is false? I. z₁z̄₁ = |z₁|². II. |z₁+z₂|²+|z₁-z₂|² = 2|z₁|²+2|z₂|². III. z̄₁ - z̄₂ = z̄₁ + z₂. IV. Re(1/z̄₁) = Re(1/z̄₂).",
+      "options": [
+        "III only",
+        "IV only",
+        "II and IV only",
+        "II and III only",
+        "II only"
+      ],
+      "correct": 0
+    }, 
+    {
+      "id": 1,
+      "text": "Evaluate ∇×(∇θ) at (1,2,3) if θ = cosh(log(x²+y²+z²+e^((x+y+z)²))).",
+      "options": ["-i - j - k", "0(vector)", "-i - j + k", "0(scalar)"],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "text": "If u=(1,-3,2), v=(2,-1,1), w=(1,7,-4), write w as linear combination.",
+      "options": [
+        "w = 3u + 2v",
+        "w = -3u + 2v",
+        "w = u + 2v",
+        "w = u - 2v"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "text": "Find dim W for W spanned by {(-1,1,1),(0,1,0),(-1,4,1),(1,1,1)}.",
+      "options": ["2", "3", "4", "1"],
+      "correct": 1
+    },
+    {
+      "id": 4,
+      "text": "Find transition matrix from basis f={(1,3),(2,5)} to e={(1,0),(0,1)}.",
+      "options": [
+        "[-5 2; 3 -1]",
+        "[2 7; 4 1]",
+        "[-1 1; 2 -3]",
+        "[-1 2; 1 -3]"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 5,
+      "text": "Which is NOT true for any complex number?",
+      "options": [
+        "If z = z̄, z is purely real",
+        "|(z-1)/(z̄-1)| = 1",
+        "sin²z + cos²z = 1",
+        "zz̄ = |z|²",
+        "None of the above"
+      ],
+      "correct": 4
+    },
+    {
+      "id": 6,
+      "text": "Which set is a basis for ℝ³?",
+      "options": [
+        "{(1,0,1),(1,-1,1)}",
+        "{(1,2,1),(1,2,-1),(-1,2,1),(1,-2,1)}",
+        "{(1,1,1),(0,1,1),(0,0,1)}",
+        "{(1,1,1),(0,1,1),(-1,0,0)}"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 7,
+      "text": "Rank and nullity of T(x,y) = (3y-x, 4x+2y, 5y-6x) from ℝ²→ℝ³ are:",
+      "options": ["1 and 2", "2 and 1", "1 and 1", "2 and 0"],
+      "correct": 3
+    },
+    {
+      "id": 8,
+      "text": "Find argument θ of -1+i in interval -4π ≤ θ ≤ -2π.",
+      "options": ["-5π/2", "-11π/4", "-7π/2", "-13π/4"],
+      "correct": 3
+    },
+    {
+      "id": 9,
+      "text": "Real and imaginary parts of z = (-i)^1000003 are:",
+      "options": ["-1 and 0", "1 and 0", "0 and 1", "0 and -1"],
+      "correct": 2
+    },
+    {
+      "id": 10,
+      "text": "If u=(a,b), v=(c,d) are linearly independent, then:",
+      "options": [
+        "a+c = b+d",
+        "ad - bc = 0",
+        "ad - bc ≠ 0",
+        "ac ≠ bd"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 11,
+      "text": "Find scalar field φ such that r = -∇φ.",
+      "options": [
+        "-|r|²/2",
+        "|r|²/2",
+        "-|r|/2",
+        "|r|/2"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 12,
+      "text": "If ∇ = √(u₃/u₂)∂/∂u₁ e₁ + √(u₁/u₃)∂/∂u₂ e₂ + √(u₂/u₁)∂/∂u₃ e₃, find dV.",
+      "options": [
+        "du₁du₂du₃",
+        "√(u₁u₂u₃)du₁du₂du₃",
+        "(u₁u₂u₃)^(-½)du₁du₂du₃",
+        "2du₁du₂du₃"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 13,
+      "text": "Matrix representation of T(x,y) = (3y-x, 4x+2y, 5y-6x) relative to standard bases is:",
+      "options": [
+        "[-1 3; 4 2; -6 5]",
+        "[-1 3; 4 2; 5 -6]",
+        "[3 -1; 2 4; -6 5]",
+        "[3 -1; 4 2; 5 -6]"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 14,
+      "text": "The magnitude of i^(2i) is:",
+      "options": ["1", "e^(-π)", "e^π", "π"],
+      "correct": 1
+    },
+    {
+      "id": 15,
+      "text": "One root of z^(5/2) + i + 1 = 0 is:",
+      "options": [
+        "-2^(1/5)i",
+        "2^(2/5)i",
+        "2^(1/5)i",
+        "-2^(2/5)i"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 16,
+      "text": "Which is NOT true about r = xi + yj + zk?",
+      "options": [
+        "r is irrotational",
+        "r is a vector field",
+        "r is solenoidal",
+        "|r| is a scalar field"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 17,
+      "text": "Which is NOT true about subspace W of V?",
+      "options": [
+        "W is a subset of V",
+        "W is a linear vector space",
+        "W is not empty",
+        "0 ∉ W"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 18,
+      "text": "Which mapping is linear?",
+      "options": [
+        "T(x,y,z) = (y,z,x-2)",
+        "T(x,y,z) = √(x²+y²+z²)",
+        "T(z) = z̄",
+        "T(x,y,z) = (y²,z²,x²)"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 19,
+      "text": "Directional derivative of φ=xyz at (1,√2,1) in direction i+k is:",
+      "options": ["2√2", "√2", "1", "2"],
+      "correct": 1
+    },
+    {
+      "id": 20,
+      "text": "If w = e^(2πi), find Σ(-1)ʲwʲ from j=0 to ∞.",
+      "options": ["2", "1/2", "0", "1"],
       "correct": 1
     }
   ]
