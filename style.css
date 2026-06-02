@@ -1378,3 +1378,21 @@ input:focus-visible,
     color: #f5a623;
     font-weight: 600;
 }
+
+.warning-message {
+    display: block;
+    margin-top: 8px;
+    font-size: 0.8rem;
+    color: #ff0909;
+    font-weight: 700;
+    background: transparent;
+    padding: 6px 12px;
+    border-radius: 1rem;
+    animation: shakeWarning 0.3s ease;
+}
+
+@keyframes shakeWarning {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateY(-20px); }
+    75% { transform: translateY(20px); }
+}

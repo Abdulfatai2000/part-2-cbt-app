@@ -132,7 +132,15 @@ startBtn.addEventListener('click', async () => {
         alert('Please select a course');
         return;
     }
-
+    
+    // Add4 validation
+    const isValid = await validateQuestionCount();
+    if (!isValid) {
+        // Scroll to warning
+        document.getElementById('questionWarning').scrollIntoView({ behavior: 'smooth', block: 'center' });
+        return;
+    }
+    
     const questionCount = parseInt(questionCountInput.value);
     const minutes = parseInt(minutesInput.value) || 0;
     const seconds = parseInt(secondsInput.value) || 0;
@@ -425,28 +433,54 @@ courseSelect.addEventListener('change', async () => {
     }
 });
 
-async function updateMaxQuestions() {
+async function validateQuestionCount() {
     const courseId = courseSelect.value;
+    const questionCount = parseInt(questionCountInput.value);
+    const warningSpan = document.getElementById('questionWarning');
+    
     if (!courseId) {
-        maxQuestionsSpan.textContent = '0';
-        return;
+        warningSpan.style.display = 'none';
+        return true;
     }
+    
     try {
         const response = await fetch(`data/${courseId}.json`);
         if (response.ok) {
             const data = await response.json();
             const maxQ = data.questions ? data.questions.length : 0;
-            maxQuestionsSpan.textContent = maxQ;
-            if (questionCountInput.value > maxQ) {
-                questionCountInput.value = maxQ;
+            
+            if (questionCount > maxQ) {
+                warningSpan.textContent = `⚠️ You only have ${maxQ} question(s) available for this course. Please enter a number between 1 and ${maxQ}.`;
+                warningSpan.style.display = 'block';
+                return false;
+            } else if (questionCount < 1) {
+                warningSpan.textContent = `⚠️ Please enter at least 1 question.`;
+                warningSpan.style.display = 'block';
+                return false;
+            } else {
+                warningSpan.style.display = 'none';
+                return true;
             }
         } else {
-            maxQuestionsSpan.textContent = '? (file missing)';
+            warningSpan.textContent = `⚠️ Course data not found. Please create data/${courseId}.json file.`;
+            warningSpan.style.display = 'block';
+            return false;
         }
     } catch (error) {
-        maxQuestionsSpan.textContent = '? (create JSON file)';
+        warningSpan.textContent = `⚠️ Error loading course data.`;
+        warningSpan.style.display = 'block';
+        return false;
     }
 }
+
+questionCountInput.addEventListener('input', function() {
+    validateQuestionCount();
+});
+
+courseSelect.addEventListener('change', async function() {
+    // ... your existing code ...
+    await validateQuestionCount(); // Add this line
+});
 
 clearHistoryBtn.addEventListener('click', () => {
     if (confirm('Are you sure you want to clear ALL history for ALL courses?')) {
