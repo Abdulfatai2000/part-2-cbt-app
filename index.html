@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <title>CBT Mastery | Professional Test Platform</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" id="themeStylesheet" href="style-dark.css">
 </head>
 <body>
 
@@ -13,6 +13,11 @@
     <!-- ========== SETUP SCREEN ========== -->
     <div id="setupScreen" class="screen active">
         <div class="card">
+            <!-- Theme Toggle Button -->
+            <button id="themeToggleBtn" class="theme-toggle">
+                <i class="fas fa-moon"></i>
+                <span id="themeText">Dark Mode</span>
+            </button>
             <h1>📚<span>CBT Test Platform</span></h1>
             <p class="subtitle">Select your course & test settings</p>
 
