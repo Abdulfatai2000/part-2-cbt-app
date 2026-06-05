@@ -1,0 +1,495 @@
+{
+  "courseName": "WEB 101 - History & Evolution of the Web",
+  "questions": [
+    {
+      "text": "In which year did Tim Berners-Lee submit his formal proposal for the World Wide Web?",
+      "options": ["1988", "1989", "1990", "1991"],
+      "correct": 1
+    },
+    {
+      "text": "What was the name of the first public web server and website launched at CERN?",
+      "options": ["web.cern.ch", "www.cern.ch", "info.cern.ch", "cern.web.info"],
+      "correct": 2
+    },
+    {
+      "text": "What does HTML stand for?",
+      "options": ["Hyper Text Markup Language", "High Tech Modern Language", "Hyper Transfer Markup Language", "Home Tool Markup Language"],
+      "correct": 0
+    },
+    {
+      "text": "What does HTTP stand for?",
+      "options": ["Hyper Transfer Text Protocol", "Hypertext Transfer Protocol", "High Tech Transfer Protocol", "Hyper Text Technical Protocol"],
+      "correct": 1
+    },
+    {
+      "text": "What does URL stand for?",
+      "options": ["Universal Resource Locator", "Uniform Resource Locator", "Unique Resource Link", "Universal Reference Link"],
+      "correct": 1
+    },
+    {
+      "text": "On what date was the World Wide Web officially released to the general public?",
+      "options": ["December 25, 1990", "August 6, 1991", "January 1, 1992", "March 15, 1993"],
+      "correct": 1
+    },
+    {
+      "text": "Which browser was the first widely influential browser that popularized online navigation in 1993?",
+      "options": ["Netscape Navigator", "Internet Explorer", "Mosaic", "Chrome"],
+      "correct": 2
+    },
+    {
+      "text": "Which company launched Internet Explorer in 1995?",
+      "options": ["Apple", "Google", "Microsoft", "Netscape"],
+      "correct": 2
+    },
+    {
+      "text": "What was the foundational network that preceded the Internet?",
+      "options": ["CSNET", "NSFNET", "ARPANET", "BITNET"],
+      "correct": 2
+    },
+    {
+      "text": "Which protocol suite standardized end-to-end data transmission for the Internet?",
+      "options": ["TCP/IP", "HTTP/HTTPS", "FTP/SMTP", "UDP/ICMP"],
+      "correct": 0
+    },
+    {
+      "text": "What is Web 1.0 primarily characterized by?",
+      "options": ["Read-only static content", "Social media platforms", "AI integration", "Decentralized blockchains"],
+      "correct": 0
+    },
+    {
+      "text": "What is Web 2.0 primarily characterized by?",
+      "options": ["Static HTML pages", "Read-Write user-generated content", "Blockchain technology", "Command-line interfaces"],
+      "correct": 1
+    },
+    {
+      "text": "What is Web 3.0 primarily characterized by?",
+      "options": ["Static portals", "Social media dominance", "Decentralization and blockchain", "Email systems"],
+      "correct": 2
+    },
+    {
+      "text": "In which year did Facebook launch?",
+      "options": ["2002", "2003", "2004", "2005"],
+      "correct": 2
+    },
+    {
+      "text": "In which year did YouTube launch?",
+      "options": ["2003", "2004", "2005", "2006"],
+      "correct": 2
+    },
+    {
+      "text": "In which year did Twitter launch?",
+      "options": ["2004", "2005", "2006", "2007"],
+      "correct": 2
+    },
+    {
+      "text": "What major event happened with Ethereum in 2015?",
+      "options": ["First Bitcoin transaction", "Ethereum launch", "ChatGPT released", "Facebook created"],
+      "correct": 1
+    },
+    {
+      "text": "In which year was ChatGPT released to the public?",
+      "options": ["2020", "2021", "2022", "2023"],
+      "correct": 2
+    },
+    {
+      "text": "What does AJAX allow web applications to do?",
+      "options": ["Full page reloads", "Partial invisible data updates", "Server-side rendering only", "Database management"],
+      "correct": 1
+    },
+    {
+      "text": "Which company dominated the search engine space during Web 2.0?",
+      "options": ["Bing", "Yahoo", "Google", "Ask Jeeves"],
+      "correct": 2
+    },
+    {
+      "text": "What is 'Surveillance Capitalism' as described in the lecture?",
+      "options": ["Government monitoring", "Monetizing consumer behavioral data for advertising", "Military surveillance", "Corporate espionage"],
+      "correct": 1
+    },
+    {
+      "text": "What does 'HTTPS Everywhere' refer to in the Modern Web Era?",
+      "options": ["Faster internet speeds", "Complete transition to default end-to-end encryption", "More websites", "Global internet access"],
+      "correct": 1
+    },
+    {
+      "text": "Which component of a browser parses and renders HTML and CSS into visual pixels?",
+      "options": ["JavaScript Engine", "Rendering Engine", "Networking Layer", "User Interface"],
+      "correct": 1
+    },
+    {
+      "text": "Which component of a browser interprets and executes JavaScript code?",
+      "options": ["Rendering Engine", "JavaScript Engine", "Browser Storage", "Networking Layer"],
+      "correct": 1
+    },
+    {
+      "text": "Who approved Tim Berners-Lee's original web proposal at CERN?",
+      "options": ["Robert Cailliau", "Mike Sendall", "Vint Cerf", "Marc Andreessen"],
+      "correct": 1
+    },
+    {
+      "text": "When did the very first public web server go live at CERN?",
+      "options": ["August 6, 1991", "December 25, 1990", "January 1, 1991", "March 15, 1990"],
+      "correct": 1
+    },
+    {
+      "text": "Which browser dominated early commercial web traffic starting in 1994?",
+      "options": ["Mosaic", "Internet Explorer", "Netscape Navigator", "Safari"],
+      "correct": 2
+    },
+    {
+      "text": "What was the original problem that led to the invention of the World Wide Web at CERN?",
+      "options": ["Slow internet speeds", "Lack of computers", "Scientists losing track of complex research across incompatible systems", "Limited funding"],
+      "correct": 2
+    },
+    {
+      "text": "Which technology allows partial invisible data updates without full page reloads?",
+      "options": ["HTML5", "CSS3", "AJAX", "JSON"],
+      "correct": 2
+    },
+    {
+      "text": "What is the primary business model of surveillance capitalism?",
+      "options": ["Subscription fees", "Product sales", "Targeted hyper-advertising", "Donations"],
+      "correct": 2
+    },
+    {
+      "text": "What are 'walled garden' mobile applications?",
+      "options": ["Free apps", "Siloed closed apps where standard hyperlinks don't exist", "Open source apps", "Educational apps"],
+      "correct": 1
+    },
+    {
+      "text": "Which modern AI model was released by OpenAI in 2022?",
+      "options": ["Gemini", "Claude", "ChatGPT", "Llama"],
+      "correct": 2
+    },
+    {
+      "text": "What does the padlock icon in a browser URL field represent?",
+      "options": ["Saved password", "Bookmarked site", "HTTPS encryption", "Secure login"],
+      "correct": 2
+    },
+    {
+      "text": "Which of the following is a decentralized social networking alternative mentioned in the lecture?",
+      "options": ["Twitter", "Facebook", "Mastodon", "Instagram"],
+      "correct": 2
+    },
+    {
+      "text": "What does the Networking Layer in a browser handle?",
+      "options": ["Displaying images", "HTTP/HTTPS calls, security keys, and protocol handshakes", "Storing cookies", "Rendering CSS"],
+      "correct": 1
+    },
+    {
+      "text": "What does Browser Storage provide?",
+      "options": ["Cloud backup", "Local sandboxes for storing data strings, session tokens, and configurations", "External hard drive access", "Network file storage"],
+      "correct": 1
+    },
+    {
+      "text": "Which of the following is NOT a core participant in the web ecosystem according to the lecture?",
+      "options": ["Web Developers", "Content Creators", "Hardware Manufacturers", "Hosting Providers"],
+      "correct": 2
+    },
+    {
+      "text": "What did ARPANET use as its fundamental design principle?",
+      "options": ["Centralized control", "Packet switching and decentralized framework", "Circuit switching", "Satellite communication"],
+      "correct": 1
+    },
+    {
+      "text": "What technology enabled the shift from static Web 1.0 to dynamic Web 2.0?",
+      "options": ["HTML only", "CSS, JavaScript, and AJAX", "FTP", "Telnet"],
+      "correct": 1
+    },
+    {
+      "text": "What is the defining characteristic of the Read-Write web?",
+      "options": ["Users only consume content", "Users become simultaneous content creators and consumers", "Only administrators can post", "Automated content only"],
+      "correct": 1
+    },
+    {
+      "text": "Which of these is an example of user-generated content?",
+      "options": ["Wikipedia articles", "Pre-installed software", "Operating system", "Hardware drivers"],
+      "correct": 0
+    },
+    {
+      "text": "What infrastructure change enabled rapid scaling of Web 2.0?",
+      "options": ["Dial-up modems", "Broadband expansion and Wi-Fi access", "ISDN lines", "Telegraph networks"],
+      "correct": 1
+    },
+    {
+      "text": "Which of these technologies is NOT associated with Web 2.0?",
+      "options": ["AJAX", "REST APIs", "JSON", "Gopher protocol"],
+      "correct": 3
+    },
+    {
+      "text": "What is a key legal debate surrounding AI in the modern web era?",
+      "options": ["AI replacing humans", "AI engines scraping publicly published web content for training", "AI speed", "AI cost"],
+      "correct": 1
+    },
+    {
+      "text": "What is the purpose of decentralization efforts like blockchain-based Web3?",
+      "options": ["Increase centralization", "Re-decentralize the web away from corporate control", "Eliminate all security", "Slow down internet"],
+      "correct": 1
+    },
+    {
+      "text": "Which browser was launched by Microsoft sparking the browser wars?",
+      "options": ["Edge", "Internet Explorer", "Chrome", "Firefox"],
+      "correct": 1
+    },
+    {
+      "text": "What does the Rendering Engine specifically parse?",
+      "options": ["JavaScript only", "HTML and CSS", "Images only", "Video files"],
+      "correct": 1
+    },
+    {
+      "text": "What does the JavaScript Engine do?",
+      "options": ["Displays images", "Parses HTML", "Compiles and executes JavaScript code", "Manages network requests"],
+      "correct": 2
+    },
+    {
+      "text": "Which of the following is a popular web browser?",
+      "options": ["Windows", "Linux", "Google Chrome", "Android"],
+      "correct": 2
+    },
+    {
+      "text": "What do Hosting Providers do in the web ecosystem?",
+      "options": ["Create content", "Provide physical and virtualized server resources to store and expose files", "Browse the web", "Index search results"],
+      "correct": 1
+    },
+    {
+      "text": "What do Cloud Service Providers deliver?",
+      "options": ["Only storage", "Only computing power", "Scalable computing power, real-time databases, and infrastructure", "Only email services"],
+      "correct": 2
+    },
+    {
+      "text": "Which company launched Ethereum?",
+      "options": ["Google", "Microsoft", "Vitalik Buterin and team", "Amazon"],
+      "correct": 2
+    },
+    {
+      "text": "What is a defining feature of Web 2.0 infrastructure?",
+      "options": ["Static HTML", "No user interaction", "Client-side modernization with CSS and JavaScript", "Command-line only"],
+      "correct": 2
+    },
+    {
+      "text": "What is the difference between Web 1.0 and Web 2.0?",
+      "options": ["Web 1.0 is read-write, Web 2.0 is read-only", "Web 1.0 is read-only static, Web 2.0 is read-write interactive", "They are the same", "Web 2.0 has no users"],
+      "correct": 1
+    },
+    {
+      "text": "What characterizes the Modern Era of the web (2015-Present)?",
+      "options": ["Static pages", "No encryption", "AI integration, mobile dominance, and HTTPS everywhere", "Dial-up internet"],
+      "correct": 2
+    },
+    {
+      "text": "What does 'The Internet is a network of networks' mean?",
+      "options": ["Only one network exists", "It connects disparate computer platforms globally", "It only works in universities", "It's a single company"],
+      "correct": 1
+    },
+    {
+      "text": "Who invented the World Wide Web?",
+      "options": ["Bill Gates", "Steve Jobs", "Tim Berners-Lee", "Mark Zuckerberg"],
+      "correct": 2
+    },
+    {
+      "text": "At which organization was the World Wide Web invented?",
+      "options": ["NASA", "Microsoft", "CERN", "Google"],
+      "correct": 2
+    },
+    {
+      "text": "What was the original web browser interface like in 1991?",
+      "options": ["Graphical and user-friendly", "Command-line driven and non-commercial", "Touch-based", "Voice-controlled"],
+      "correct": 1
+    },
+    {
+      "text": "What does TCP/IP provide for the Internet?",
+      "options": ["Only email service", "Standardized end-to-end data transmission parameters", "Only web browsing", "Only file transfer"],
+      "correct": 1
+    },
+    {
+      "text": "What major transformation did the web undergo according to the lecture?",
+      "options": ["From static to dynamic to intelligent/AI-driven", "No major changes", "Only changed colors", "Became slower"],
+      "correct": 0
+    },
+    {
+      "text": "What is the 'Browser Wars' referring to?",
+      "options": ["War between internet companies", "Competition between web browsers like Netscape and Internet Explorer", "Physical war", "War over domain names"],
+      "correct": 1
+    },
+    {
+      "text": "Which of these is NOT a key technical shift of Web 2.0?",
+      "options": ["Dynamic and interactive content", "Read-Write functionality", "Static non-interactive pages", "User-generated content"],
+      "correct": 2
+    },
+    {
+      "text": "What does JSON stand for in web development?",
+      "options": ["Java Source Object Notation", "JavaScript Object Notation", "Java System Object Network", "JavaScript Online Notation"],
+      "correct": 1
+    },
+    {
+      "text": "What does REST API refer to?",
+      "options": ["A programming language", "An architectural style for web services", "A database", "An operating system"],
+      "correct": 1
+    },
+    {
+      "text": "Which of the following is a key technology of Web 2.0?",
+      "options": ["Gopher", "Telnet", "AJAX", "FTP only"],
+      "correct": 2
+    },
+    {
+      "text": "What is a defining feature of Web 3.0?",
+      "options": ["Read-only access", "No user interaction", "Read-Write-own execution with blockchains", "Static HTML"],
+      "correct": 2
+    },
+    {
+      "text": "What does 'Smart Contract' refer to in Web 3.0?",
+      "options": ["A legal document", "Self-executing contracts on blockchain", "A type of browser", "A programming language"],
+      "correct": 1
+    },
+    {
+      "text": "Which of these is an example of a major tech platform consolidating the web?",
+      "options": ["Local businesses", "Google and Meta", "Small startups", "Individual bloggers"],
+      "correct": 1
+    },
+    {
+      "text": "What does 'User Interface' in a browser include?",
+      "options": ["HTML parser", "JavaScript compiler", "Address bar, back/forward buttons, and bookmarks", "Network handler"],
+      "correct": 2
+    },
+    {
+      "text": "Which of the following is a modern AI image generation model?",
+      "options": ["Chrome", "Firefox", "Midjourney", "Windows"],
+      "correct": 2
+    },
+    {
+      "text": "What fundamental problem does HTTPS solve?",
+      "options": ["Slow speed", "Lack of encryption and security", "No images", "Small storage"],
+      "correct": 1
+    },
+    {
+      "text": "What is the purpose of Search Engines in the web ecosystem?",
+      "options": ["Create content", "Host websites", "Crawl, index, organize, and filter the web", "Provide internet connection"],
+      "correct": 2
+    },
+    {
+      "text": "What does 'Packet Switching' enable?",
+      "options": ["Only one path for data", "Resilient decentralized data transmission", "Centralized control", "No data transmission"],
+      "correct": 1
+    },
+    {
+      "text": "Which organization expanded academic and military networks toward public access?",
+      "options": ["CERN only", "ARPANET and later NSFNET", "Microsoft", "Apple"],
+      "correct": 1
+    },
+    {
+      "text": "When did the commercialization of the Internet transform it into a global economic ecosystem?",
+      "options": ["1960s", "1970s", "1990s", "2000s"],
+      "correct": 2
+    },
+    {
+      "text": "What is the key difference between AJAX and traditional Web 1.0 requests?",
+      "options": ["AJAX is slower", "AJAX allows partial updates without full page reload", "AJAX doesn't work", "AJAX only works on one browser"],
+      "correct": 1
+    },
+    {
+      "text": "What does jQuery provide for web developers?",
+      "options": ["Database management", "Simplified DOM manipulation and cross-browser compatibility", "Server hosting", "Image editing"],
+      "correct": 1
+    },
+    {
+      "text": "What does CSS3 add beyond basic CSS?",
+      "options": ["Only colors", "Animations, transitions, and responsive design features", "Only fonts", "Only borders"],
+      "correct": 1
+    },
+    {
+      "text": "What is the 'Mobile-First & App Silo Shift'?",
+      "options": ["Web is more important", "User activity moving from open web to closed mobile applications", "No change", "Desktop computers only"],
+      "correct": 1
+    },
+    {
+      "text": "What is a 'federated social network'?",
+      "options": ["A centralized platform", "A decentralized network like Mastodon where servers communicate", "A single company", "An email service"],
+      "correct": 1
+    },
+    {
+      "text": "What does 'Cryptographic Identity' refer to in Web 3.0?",
+      "options": ["Passwords", "Fingerprints", "Identity secured by blockchain cryptography", "Usernames"],
+      "correct": 2
+    },
+    {
+      "text": "What was the alt.hypertext Usenet newsgroup used for?",
+      "options": ["Selling products", "Announcing the World Wide Web to the public", "Playing games", "Chatting"],
+      "correct": 1
+    },
+    {
+      "text": "What is the significance of info.cern.ch?",
+      "options": ["First search engine", "First public web server and website", "First email server", "First chat room"],
+      "correct": 1
+    },
+    {
+      "text": "Which of these is a core browser function?",
+      "options": ["Cooking food", "Parsing HTML/CSS and executing JavaScript", "Driving cars", "Flying drones"],
+      "correct": 1
+    },
+    {
+      "text": "What does browser cookie management involve?",
+      "options": ["Baking", "Tracking sessions and storing user preferences", "Deleting files", "Updating software"],
+      "correct": 1
+    },
+    {
+      "text": "What does 'Read-Write-own' mean in Web 3.0?",
+      "options": ["Users own their data via blockchain", "Only companies own data", "No ownership", "Government owns data"],
+      "correct": 0
+    },
+    {
+      "text": "Which of the following is a cloud service provider mentioned in the lecture?",
+      "options": ["Local server", "AWS, Azure, Google Cloud (implied)", "Personal computer", "USB drive"],
+      "correct": 1
+    },
+    {
+      "text": "What is the role of Content Creators in the web ecosystem?",
+      "options": ["Provide servers", "Generate media, text, entertainment, and knowledge assets", "Browse content", "Index pages"],
+      "correct": 1
+    },
+    {
+      "text": "What does 'Semantic Web' refer to in Web 3.0?",
+      "options": ["Meaningless data", "Data that machines can understand and process intelligently", "Only text", "Only images"],
+      "correct": 1
+    },
+    {
+      "text": "What major legal debate exists regarding AI and web content?",
+      "options": ["AI pricing", "AI scraping publicly published web content for training without permission", "AI speed", "AI colors"],
+      "correct": 1
+    },
+    {
+      "text": "What does 'End-to-end network encryption' ensure?",
+      "options": ["Everyone can see data", "Data is secure between sender and receiver", "No security", "Only previews are visible"],
+      "correct": 1
+    },
+    {
+      "text": "Which of the following is NOT a participant in the web ecosystem?",
+      "options": ["Users", "Web Developers", "Television Networks", "Hosting Providers"],
+      "correct": 2
+    },
+    {
+      "text": "What does the user interface of a browser include?",
+      "options": ["Only the webpage", "Address bar, navigation buttons, menus, and bookmarks", "Only the HTML", "Only the CSS"],
+      "correct": 1
+    },
+    {
+      "text": "What does 'ubiquitous search engines' mean in Web 2.0?",
+      "options": ["No search engines", "Search engines everywhere indexing massive content", "Only one search engine", "Slow search"],
+      "correct": 1
+    },
+    {
+      "text": "What is the main difference between Web 2.0 and Web 3.0?",
+      "options": ["Web 2.0 has blockchains, Web 3.0 doesn't", "Web 2.0 is social/interactive, Web 3.0 is decentralized with ownership", "They are identical", "Web 3.0 is read-only"],
+      "correct": 1
+    },
+    {
+      "text": "What was the ARPANET designed as?",
+      "options": ["Centralized system", "Decentralized framework using packet switching", "Single computer", "Television network"],
+      "correct": 1
+    },
+    {
+      "text": "What does the 'Modern Era & AI Integration' include?",
+      "options": ["No AI", "Ubiquitous mobile, HTTPS, and AI-powered engines like ChatGPT", "Only desktop computers", "No encryption"],
+      "correct": 1
+    }
+  ]
+}
