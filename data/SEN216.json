@@ -490,6 +490,1056 @@
       "text": "What does the 'Modern Era & AI Integration' include?",
       "options": ["No AI", "Ubiquitous mobile, HTTPS, and AI-powered engines like ChatGPT", "Only desktop computers", "No encryption"],
       "correct": 1
-    }
-  ]
+    },
+    {
+    "text": "What does TCP stand for in TCP/IP model?",
+    "options": ["Transmission Control Protocol", "Transfer Communication Protocol", "Transmission Connection Protocol", "Transport Control Protocol"],
+    "correct": 0
+  },
+  {
+    "text": "What does UDP stand for?",
+    "options": ["User Datagram Protocol", "Universal Data Protocol", "Uniform Delivery Protocol", "Unreliable Datagram Protocol"],
+    "correct": 0
+  },
+  {
+    "text": "What does ARP stand for?",
+    "options": ["Address Resolution Protocol", "Address Retrieval Protocol", "ARP Resolution Protocol", "Access Resolution Protocol"],
+    "correct": 0
+  },
+  {
+    "text": "What does ICMP stand for?",
+    "options": ["Internet Control Message Protocol", "Internet Communication Management Protocol", "Internal Control Message Protocol", "Interconnection Control Message Protocol"],
+    "correct": 0
+  },
+  {
+    "text": "What does DNS stand for?",
+    "options": ["Domain Name System", "Digital Network Service", "Data Name Service", "Domain Naming Structure"],
+    "correct": 0
+  },
+  {
+    "text": "What does SMTP stand for?",
+    "options": ["Simple Mail Transfer Protocol", "Standard Mail Transfer Protocol", "Secure Mail Transmission Protocol", "Simple Message Transfer Protocol"],
+    "correct": 0
+  },
+  {
+    "text": "What does FTP stand for?",
+    "options": ["File Transfer Protocol", "Fast Transfer Protocol", "File Transmission Protocol", "Folder Transfer Protocol"],
+    "correct": 0
+  },
+  {
+    "text": "What does MTU stand for in networking?",
+    "options": ["Maximum Transmission Unit", "Minimum Transfer Unit", "Maximum Transport Unit", "Message Transfer Unit"],
+    "correct": 0
+  },
+  {
+    "text": "What does DHCP stand for?",
+    "options": ["Dynamic Host Configuration Protocol", "Digital Host Control Protocol", "Dynamic Hardware Configuration Protocol", "Direct Host Connection Protocol"],
+    "correct": 0
+  },
+  {
+    "text": "What does CIDR stand for?",
+    "options": ["Classless Inter-Domain Routing", "Classful Internet Domain Routing", "CIDR Inter-Domain Routing", "Common Internet Domain Resolution"],
+    "correct": 0
+  },
+  {
+    "text": "What does VLSM stand for?",
+    "options": ["Variable Length Subnet Mask", "Very Long Subnet Mask", "Virtual Length Subnet Mask", "Variable Layer Subnet Mask"],
+    "correct": 0
+  },
+  {
+    "text": "What does MAC stand for in MAC address?",
+    "options": ["Media Access Control", "Machine Address Code", "Memory Access Controller", "Media Authentication Code"],
+    "correct": 0
+  },
+  {
+    "text": "What does NAT stand for?",
+    "options": ["Network Address Translation", "Network Access Technology", "Node Address Translation", "Network Allocation Table"],
+    "correct": 0
+  },
+  {
+    "text": "What does PDU stand for in networking layers?",
+    "options": ["Protocol Data Unit", "Packet Data Unit", "Protocol Delivery Unit", "Payload Data Unit"],
+    "correct": 0
+  },
+  {
+    "text": "What does TTL stand for in IP packets?",
+    "options": ["Time To Live", "Transmission Time Limit", "Transfer Time Length", "Time To Leave"],
+    "correct": 0
+  },
+  {
+    "text": "Which of the following is a characteristic of TCP but NOT UDP?",
+    "options": ["Connection-oriented communication", "Fast transmission speed", "Low overhead", "No error recovery"],
+    "correct": 0
+  },
+  {
+    "text": "What mechanism does TCP use to prevent a sender from overwhelming a receiver?",
+    "options": ["Flow control using sliding window", "Congestion avoidance only", "Packet dropping", "Rate limiting at application layer"],
+    "correct": 0
+  },
+  {
+    "text": "Which application would MOST likely use UDP instead of TCP?",
+    "options": ["Live video streaming", "Email transmission", "File download", "Web browsing"],
+    "correct": 0
+  },
+  {
+    "text": "What happens when TCP detects packet loss?",
+    "options": ["It retransmits the lost segment", "It ignores the loss and continues", "It resets the connection", "It sends an error to the application"],
+    "correct": 0
+  },
+  {
+    "text": "Which field in the TCP header ensures data is reassembled in the correct order?",
+    "options": ["Sequence Number", "Checksum", "Window Size", "Acknowledgment Number"],
+    "correct": 0
+  },
+  {
+    "text": "What is the minimum TCP header size in bytes?",
+    "options": ["20 bytes", "16 bytes", "24 bytes", "32 bytes"],
+    "correct": 0
+  },
+  {
+    "text": "Which statement about UDP checksum is TRUE?",
+    "options": ["UDP checksum is optional in IPv4", "UDP always uses checksum", "UDP checksum covers only the data", "UDP checksum is the same as TCP checksum algorithm"],
+    "correct": 0
+  },
+  {
+    "text": "What is the primary reason VoIP uses UDP over TCP?",
+    "options": ["Lower latency and delay sensitivity", "Better security", "Guaranteed delivery", "Larger data capacity"],
+    "correct": 0
+  },
+  {
+    "text": "During the TCP three-way handshake, which flag is set in the second segment?",
+    "options": ["SYN + ACK", "SYN only", "ACK only", "FIN + ACK"],
+    "correct": 0
+  },
+  {
+    "text": "What does a TCP window size of 0 indicate?",
+    "options": ["Receiver cannot accept any more data", "Connection is closing", "No data to send", "Window scaling is active"],
+    "correct": 0
+  },
+  {
+    "text": "Which congestion control algorithm does TCP use to avoid network collapse?",
+    "options": ["Additive Increase Multiplicative Decrease (AIMD)", "Exponential backoff only", "Token bucket", "Leaky bucket"],
+    "correct": 0
+  },
+  {
+    "text": "What is the purpose of TCP's 'urgent pointer' field?",
+    "options": ["Indicates out-of-band data that should be processed immediately", "Shows the end of data", "Marks retransmitted packets", "Indicates connection termination"],
+    "correct": 0
+  },
+  {
+    "text": "Which statement about port numbers is FALSE?",
+    "options": ["TCP and UDP can use the same port number simultaneously", "Port numbers below 1024 are well-known ports", "UDP uses port numbers for multiplexing", "TCP port 80 is reserved for HTTPS"],
+    "correct": 3
+  },
+  {
+    "text": "What triggers TCP fast retransmission?",
+    "options": ["Three duplicate ACKs received", "Timeout expiration", "Window size becomes zero", "Checksum error detected"],
+    "correct": 0
+  },
+  {
+    "text": "Which transport protocol provides connection-oriented service with congestion control?",
+    "options": ["TCP only", "UDP only", "Both TCP and UDP", "Neither TCP nor UDP"],
+    "correct": 0
+  },
+  {
+    "text": "What does TCP slow start do?",
+    "options": ["Gradually increases congestion window from 1 MSS", "Starts transmission slowly to avoid collision", "Limits the receive window size", "Slows down the retransmission timer"],
+    "correct": 0
+  },
+  {
+    "text": "Which of the following services does UDP provide?",
+    "options": ["Checksum error detection", "Reliable data delivery", "Ordered packet delivery", "Flow control"],
+    "correct": 0
+  },
+  {
+    "text": "What is the function of the TCP 'FIN' flag?",
+    "options": ["Gracefully terminate a connection", "Reset the connection", "Synchronize sequence numbers", "Indicate urgent data"],
+    "correct": 0
+  },
+  {
+    "text": "Why does UDP have lower overhead than TCP?",
+    "options": ["No connection establishment, no acknowledgment, smaller header", "Uses less bandwidth", "Runs at a lower protocol layer", "Doesn't require IP underneath"],
+    "correct": 0
+  },
+  {
+    "text": "What happens to a TCP connection that experiences four duplicate ACKs?",
+    "options": ["Fast recovery is triggered", "Connection resets immediately", "Slow start begins from 0", "Window scaling activates"],
+    "correct": 0
+  },
+  {
+    "text": "How many usable host addresses are there in a /26 subnet?",
+    "options": ["62", "64", "30", "126"],
+    "correct": 0
+  },
+  {
+    "text": "What is the subnet mask for CIDR notation /21?",
+    "options": ["255.255.248.0", "255.255.240.0", "255.255.252.0", "255.255.224.0"],
+    "correct": 0
+  },
+  {
+    "text": "Which IP address is a Class B private address?",
+    "options": ["172.16.0.1", "10.0.0.1", "192.168.1.1", "169.254.0.1"],
+    "correct": 0
+  },
+  {
+    "text": "What is the network address of 192.168.5.37/28?",
+    "options": ["192.168.5.32", "192.168.5.0", "192.168.5.16", "192.168.5.48"],
+    "correct": 0
+  },
+  {
+    "text": "How many subnets are created when borrowing 4 bits from a Class C network?",
+    "options": ["16", "8", "4", "32"],
+    "correct": 0
+  },
+  {
+    "text": "What is the broadcast address for subnet 10.10.10.64/26?",
+    "options": ["10.10.10.127", "10.10.10.255", "10.10.10.126", "10.10.10.128"],
+    "correct": 0
+  },
+  {
+    "text": "Which of the following is a valid IPv6 address?",
+    "options": ["2001:0db8:85a3:0000:0000:8a2e:0370:7334", "192.168.1.256", "2001:db8::g123", "10.0.0.0.1"],
+    "correct": 0
+  },
+  {
+    "text": "What is the CIDR equivalent of subnet mask 255.255.255.240?",
+    "options": ["/28", "/27", "/26", "/29"],
+    "correct": 0
+  },
+  {
+    "text": "How many total IP addresses are in a /23 subnet?",
+    "options": ["512", "256", "1024", "2048"],
+    "correct": 0
+  },
+  {
+    "text": "If a network has 30 usable host addresses, what is the subnet mask?",
+    "options": ["255.255.255.224 (/27)", "255.255.255.192 (/26)", "255.255.255.240 (/28)", "255.255.255.248 (/29)"],
+    "correct": 0
+  },
+  {
+    "text": "What is the first usable IP address in 172.16.0.0/20?",
+    "options": ["172.16.0.1", "172.16.0.0", "172.16.1.0", "172.16.0.255"],
+    "correct": 0
+  },
+  {
+    "text": "Which class does IP address 192.0.2.1 belong to?",
+    "options": ["Class C", "Class A", "Class B", "Class D"],
+    "correct": 0
+  },
+  {
+    "text": "What is the purpose of the loopback address 127.0.0.1?",
+    "options": ["Test TCP/IP stack on local machine", "Default gateway", "Broadcast to all hosts", "Multicast address"],
+    "correct": 0
+  },
+  {
+    "text": "How many bits are in an IPv4 address?",
+    "options": ["32", "64", "128", "16"],
+    "correct": 0
+  },
+  {
+    "text": "How many bits are in an IPv6 address?",
+    "options": ["128", "32", "64", "256"],
+    "correct": 0
+  },
+  {
+    "text": "Which of the following is a valid Class A private IP range?",
+    "options": ["10.0.0.0 to 10.255.255.255", "172.16.0.0 to 172.31.255.255", "192.168.0.0 to 192.168.255.255", "169.254.0.0 to 169.254.255.255"],
+    "correct": 0
+  },
+  {
+    "text": "What subnet mask would provide 14 usable hosts per subnet?",
+    "options": ["255.255.255.240 (/28)", "255.255.255.224 (/27)", "255.255.255.248 (/29)", "255.255.255.192 (/26)"],
+    "correct": 0
+  },
+  {
+    "text": "What is the wildcard mask for /29 subnet?",
+    "options": ["0.0.0.7", "0.0.0.3", "0.0.0.15", "0.0.0.31"],
+    "correct": 0
+  },
+  {
+    "text": "Which IPv4 class is reserved for multicast?",
+    "options": ["Class D (224-239)", "Class E (240-255)", "Class B (128-191)", "Class C (192-223)"],
+    "correct": 0
+  },
+  {
+    "text": "Calculate the number of host bits in a subnet with mask 255.255.248.0",
+    "options": ["11", "8", "13", "21"],
+    "correct": 0
+  },
+  {
+    "text": "What is the default gateway typically assigned as in a /24 network 192.168.1.0?",
+    "options": ["192.168.1.1", "192.168.1.0", "192.168.1.255", "192.168.0.1"],
+    "correct": 0
+  },
+  {
+    "text": "Which IP address is APIPA (Automatic Private IP Addressing) range?",
+    "options": ["169.254.0.0/16", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"],
+    "correct": 0
+  },
+  {
+    "text": "What is the binary representation of 255.255.255.192?",
+    "options": ["11111111.11111111.11111111.11000000", "11111111.11111111.11111111.11100000", "11111111.11111111.11111111.10000000", "11111111.11111111.11111111.11110000"],
+    "correct": 0
+  },
+  {
+    "text": "How many /27 subnets can be created from a /24 network?",
+    "options": ["8", "4", "16", "2"],
+    "correct": 0
+  },
+  {
+    "text": "What is the network ID for 203.0.113.45 with mask 255.255.255.224?",
+    "options": ["203.0.113.32", "203.0.113.64", "203.0.113.0", "203.0.113.48"],
+    "correct": 0
+  },
+  {
+    "text": "What is the PDU called at the Transport Layer of TCP/IP?",
+    "options": ["Segment (TCP) or Datagram (UDP)", "Frame", "Packet", "Bit"],
+    "correct": 0
+  },
+  {
+    "text": "At which layer does encapsulation add both a header and a trailer?",
+    "options": ["Data Link Layer (Network Access)", "Transport Layer", "Internet Layer", "Application Layer"],
+    "correct": 0
+  },
+  {
+    "text": "What is the correct order of encapsulation from top to bottom?",
+    "options": ["Data → Segment → Packet → Frame → Bits", "Segment → Data → Packet → Frame → Bits", "Data → Packet → Segment → Frame → Bits", "Frame → Packet → Segment → Data → Bits"],
+    "correct": 0
+  },
+  {
+    "text": "What header is added at the Internet Layer during encapsulation?",
+    "options": ["IP header", "TCP header", "Ethernet header", "UDP header"],
+    "correct": 0
+  },
+  {
+    "text": "What happens during decapsulation at the receiving host?",
+    "options": ["Each layer removes and processes its corresponding header", "All headers are removed at once", "Headers are encrypted", "Data is discarded"],
+    "correct": 0
+  },
+  {
+    "text": "What type of address is added at the Network Access Layer?",
+    "options": ["MAC address", "IP address", "Port number", "URL"],
+    "correct": 0
+  },
+  {
+    "text": "What is the term for the process of wrapping data with protocol headers at each layer?",
+    "options": ["Encapsulation", "Encryption", "Encoding", "Encapsulation"],
+    "correct": 0
+  },
+  {
+    "text": "Which layer adds a checksum for error detection at the frame level?",
+    "options": ["Network Access Layer (Data Link)", "Transport Layer", "Internet Layer", "Application Layer"],
+    "correct": 0
+  },
+  {
+    "text": "What PDU does a router primarily process?",
+    "options": ["Packet (Internet Layer PDU)", "Segment", "Frame", "Data"],
+    "correct": 0
+  },
+  {
+    "text": "What PDU does a switch primarily process?",
+    "options": ["Frame (Data Link Layer PDU)", "Packet", "Segment", "Bits"],
+    "correct": 0
+  },
+  {
+    "text": "What PDU does a hub/ repeater process?",
+    "options": ["Bits (Physical Layer)", "Frames", "Packets", "Segments"],
+    "correct": 0
+  },
+  {
+    "text": "When data moves from Application to Transport layer, what is added?",
+    "options": ["TCP or UDP header", "IP header", "Ethernet header", "No header added"],
+    "correct": 0
+  },
+  {
+    "text": "What does the MTU define?",
+    "options": ["Maximum size of PDU at Network Access Layer", "Maximum segment size", "Maximum header length", "Maximum number of packets per second"],
+    "correct": 0
+  },
+  {
+    "text": "When a packet exceeds the MTU, what happens?",
+    "options": ["Fragmentation occurs at the Internet Layer", "Packet is dropped", "Packet is compressed", "MTU is ignored"],
+    "correct": 0
+  },
+  {
+    "text": "Where are fragmented packets reassembled?",
+    "options": ["At the destination host", "At the next router", "At the source", "At the first hop"],
+    "correct": 0
+  },
+  {
+    "text": "What is the purpose of TCP's three-way handshake?",
+    "options": ["Establish a reliable connection and synchronize sequence numbers", "Close an existing connection", "Transfer data", "Authenticate users"],
+    "correct": 0
+  },
+  {
+    "text": "What does TCP use to detect packet loss without waiting for timeout?",
+    "options": ["Fast retransmit triggered by duplicate ACKs", "Slow start", "Cumulative ACK", "Keepalive timer"],
+    "correct": 0
+  },
+  {
+    "text": "What is the TCP slow start threshold (ssthresh) used for?",
+    "options": ["Determines when to switch from slow start to congestion avoidance", "Sets maximum window size", "Defines connection timeout", "Calculates checksum"],
+    "correct": 0
+  },
+  {
+    "text": "What does the TCP 'RST' flag do?",
+    "options": ["Abruptly resets/terminates a connection", "Requests data retransmission", "Synchronizes sequence numbers", "Acknowledges received data"],
+    "correct": 0
+  },
+  {
+    "text": "What is TCP's maximum segment size (MSS) derived from?",
+    "options": ["MTU minus IP and TCP headers", "Fixed 1460 bytes", "Window size divided by 2", "User configuration only"],
+    "correct": 0
+  },
+  {
+    "text": "How does TCP handle out-of-order segments?",
+    "options": ["Buffers them until missing segments arrive", "Discards them immediately", "Requests retransmission", "Reorders at application layer"],
+    "correct": 0
+  },
+  {
+    "text": "What is the TCP keepalive timer used for?",
+    "options": ["Check if idle connection is still alive", "Keep connection speed high", "Prevent buffer overflow", "Encrypt data periodically"],
+    "correct": 0
+  },
+  {
+    "text": "What is the typical TCP retransmission timeout algorithm?",
+    "options": ["Exponential backoff (RTO doubles each retransmission)", "Fixed interval", "Linear increase", "Random interval"],
+    "correct": 0
+  },
+  {
+    "text": "What does the 'CWR' and 'ECE' flags in TCP header indicate?",
+    "options": ["Explicit Congestion Notification (ECN)", "Window scaling", "Selective acknowledgment", "Urgent data"],
+    "correct": 0
+  },
+  {
+    "text": "What problem does TCP timestamps option solve?",
+    "options": ["Protection against wrapped sequence numbers (PAWS)", "Faster retransmission", "Smaller header size", "Better encryption"],
+    "correct": 0
+  },
+  {
+    "text": "What is TCP SACK (Selective Acknowledgment)?",
+    "options": ["Allows receiver to acknowledge non-contiguous blocks of data", "Acknowledges all data at once", "Selectively drops packets", "Slows down transmission"],
+    "correct": 0
+  },
+  {
+    "text": "What triggers TCP to send an ACK?",
+    "options": ["Delayed ACK timer or every second segment", "Every packet immediately", "Only when data is received", "Random intervals"],
+    "correct": 0
+  },
+  {
+    "text": "What is the purpose of the TCP 'PUSH' flag?",
+    "options": ["Instructs receiver to deliver data immediately to application", "Prioritize this segment", "Push data to disk", "Reset connection"],
+    "correct": 0
+  },
+  {
+    "text": "How does TCP prevent the Sorcerer's Bug (old duplicate segments)?",
+    "options": ["Using timestamp option and PAWS", "Larger sequence numbers", "Shorter timeouts", "Header checksums"],
+    "correct": 0
+  },
+  {
+    "text": "What is the difference between flow control and congestion control?",
+    "options": ["Flow control prevents receiver overload; congestion control prevents network overload", "They are the same", "Flow control is for UDP", "Congestion control is only for IPv6"],
+    "correct": 0
+  },
+  {
+    "text": "What field in TCP header is used for flow control?",
+    "options": ["Window Size", "Sequence Number", "Acknowledgment Number", "Checksum"],
+    "correct": 0
+  },
+  {
+    "text": "What happens when TCP receives an ACK for data not yet sent?",
+    "options": ["Ignored as duplicate ACK", "Connection reset", "Data is sent faster", "Window size increased"],
+    "correct": 0
+  },
+  {
+    "text": "What is TCP's initial congestion window (cwnd) typically set to?",
+    "options": ["10 MSS (Modern TCP)", "1 MSS", "64 KB", "65535 bytes"],
+    "correct": 0
+  },
+  {
+    "text": "What does TCP NewReno improve over Tahoe?",
+    "options": ["Better recovery during multiple packet losses", "Faster handshake", "Smaller headers", "IPv6 support"],
+    "correct": 0
+  },
+  {
+    "text": "How does TCP prevent silly window syndrome?",
+    "options": ["Receiver advertises nonzero window only when significant space available", "Sender stops sending", "Window scaling disabled", "Small segments combined"],
+    "correct": 0
+  },
+  {
+    "text": "Which port does HTTP use by default?",
+    "options": ["80", "443", "25", "53"],
+    "correct": 0
+  },
+  {
+    "text": "Which port does HTTPS use by default?",
+    "options": ["443", "80", "8080", "8443"],
+    "correct": 0
+  },
+  {
+    "text": "What is the default port for DNS?",
+    "options": ["53", "25", "110", "143"],
+    "correct": 0
+  },
+  {
+    "text": "What is the difference between implicit and explicit FTPS?",
+    "options": ["Implicit uses dedicated port 990; explicit uses STARTTLS on port 21", "They are the same", "Implicit is faster", "Explicit is deprecated"],
+    "correct": 0
+  },
+  {
+    "text": "What does HTTP 404 status code mean?",
+    "options": ["Not Found", "OK", "Internal Server Error", "Forbidden"],
+    "correct": 0
+  },
+  {
+    "text": "What does HTTP 301 status code indicate?",
+    "options": ["Moved Permanently", "Found (Temporary Redirect)", "Bad Request", "Unauthorized"],
+    "correct": 0
+  },
+  {
+    "text": "What is the purpose of DNS reverse lookup?",
+    "options": ["Map IP address to domain name", "Map domain name to IP address", "Resolve MAC addresses", "Find gateway IP"],
+    "correct": 0
+  },
+  {
+    "text": "What type of DNS record maps a domain to an IPv6 address?",
+    "options": ["AAAA record", "A record", "CNAME record", "MX record"],
+    "correct": 0
+  },
+  {
+    "text": "What DNS record type is used for mail exchange servers?",
+    "options": ["MX record", "A record", "CNAME", "TXT record"],
+    "correct": 0
+  },
+  {
+    "text": "What is the difference between POP3 and IMAP?",
+    "options": ["POP3 downloads and deletes from server; IMAP keeps messages on server", "IMAP is older", "POP3 is more secure", "No difference"],
+    "correct": 0
+  },
+  {
+    "text": "Which protocol uses port 22 by default?",
+    "options": ["SSH", "Telnet", "FTP", "SMTP"],
+    "correct": 0
+  },
+  {
+    "text": "What is the main difference between FTP active and passive mode?",
+    "options": ["Active mode server initiates data connection; passive mode client initiates", "Passive is faster", "Active is more secure", "Only passive works through firewalls"],
+    "correct": 0
+  },
+  {
+    "text": "What does HTTP/2 primarily improve over HTTP/1.1?",
+    "options": ["Multiplexing and header compression", "Better security only", "Larger headers", "Slower performance"],
+    "correct": 0
+  },
+  {
+    "text": "What is a recursive DNS query?",
+    "options": ["DNS server fully resolves the query contacting other servers", "Query returns to client", "Server returns cached result only", "Query is dropped"],
+    "correct": 0
+  },
+  {
+    "text": "What port does SNMP use?",
+    "options": ["161", "162", "25", "123"],
+    "correct": 0
+  },
+  {
+    "text": "What is the length of a MAC address in bits?",
+    "options": ["48 bits", "32 bits", "64 bits", "128 bits"],
+    "correct": 0
+  },
+  {
+    "text": "What is the purpose of CSMA/CD in Ethernet?",
+    "options": ["Collision detection mechanism", "Address resolution", "Packet routing", "Error correction"],
+    "correct": 0
+  },
+  {
+    "text": "What replaced CSMA/CD in modern switched Ethernet?",
+    "options": ["Full-duplex operation with switches eliminates collisions", "CSMA/CA", "Token passing", "Packet switching"],
+    "correct": 0
+  },
+  {
+    "text": "What does a switch do when it receives a frame with unknown destination MAC?",
+    "options": ["Floods the frame out all ports except the receiving port", "Drops the frame", "Sends ARP request", "Stores in buffer"],
+    "correct": 0
+  },
+  {
+    "text": "What is the purpose of ARP?",
+    "options": ["Resolve IP address to MAC address", "Resolve MAC address to IP address", "Assign IP addresses automatically", "Route between networks"],
+    "correct": 0
+  },
+  {
+    "text": "What is gratuitous ARP used for?",
+    "options": ["Announce IP-to-MAC mapping to update switch tables", "Request unknown MAC", "Find default gateway", "Duplicate IP detection only"],
+    "correct": 0
+  },
+  {
+    "text": "What is the Ethernet frame's maximum payload size (MTU)?",
+    "options": ["1500 bytes", "1518 bytes", "64 bytes", "9000 bytes (jumbo)"],
+    "correct": 0
+  },
+  {
+    "text": "What is the purpose of VLANs?",
+    "options": ["Segment broadcast domains logically", "Increase collision domain", "Replace routers", "Provide encryption"],
+    "correct": 0
+  },
+  {
+    "text": "What does the Spanning Tree Protocol (STP) prevent?",
+    "options": ["Broadcast loops in redundant networks", "Packet collisions", "MAC flooding", "ARP spoofing"],
+    "correct": 0
+  },
+  {
+    "text": "What is the OUI part of a MAC address?",
+    "options": ["First 24 bits (manufacturer identifier)", "Last 24 bits", "Middle 16 bits", "All bits"],
+    "correct": 0
+  },
+  {
+    "text": "What type of cable uses twisted pairs to reduce electromagnetic interference?",
+    "options": ["UTP/STP Ethernet cable", "Coaxial cable", "Fiber optic", "USB cable"],
+    "correct": 0
+  },
+  {
+    "text": "What is the maximum distance of Cat6 Ethernet cable at 1 Gbps?",
+    "options": ["100 meters", "55 meters", "1000 meters", "500 meters"],
+    "correct": 0
+  },
+  {
+    "text": "What is the difference between a router and a layer 3 switch?",
+    "options": ["Layer 3 switch routes in hardware (ASIC) for speed; router offers more features", "No difference", "Router is faster", "Switch cannot route between VLANs"],
+    "correct": 0
+  },
+  {
+    "text": "What is jumbo frame?",
+    "options": ["Ethernet frame > 1500 bytes MTU, typically 9000 bytes", "Frame with errors", "Broadcast frame", "VLAN tagged frame"],
+    "correct": 0
+  },
+  {
+    "text": "What is PoE (Power over Ethernet)?",
+    "options": ["Delivers electrical power through Ethernet cables", "Powerful Ethernet", "Protocol over Ethernet", "Packet over Ethernet"],
+    "correct": 0
+  },
+  {
+    "text": "You ping a remote server and receive 'Destination Host Unreachable'. What is the most likely cause?",
+    "options": ["No route to the destination network", "Server is powered off but route exists", "Firewall is blocking ping", "DNS resolution failed"],
+    "correct": 0
+  },
+  {
+    "text": "A user can browse HTTP websites but HTTPS sites time out. What is the likely issue?",
+    "options": ["Port 443 blocked or TLS handshake failing", "DNS server down", "Default gateway misconfigured", "MTU too small"],
+    "correct": 0
+  },
+  {
+    "text": "Two hosts on the same switch cannot communicate. What command would you use first on each host?",
+    "options": ["ipconfig/ifconfig to check IP configuration", "traceroute", "netstat", "nslookup"],
+    "correct": 0
+  },
+  {
+    "text": "You need 100 subnets with 50 hosts each from 172.16.0.0/16. What subnet mask satisfies both?",
+    "options": ["/19 (255.255.224.0) gives 8190 hosts per subnet", "/17 (255.255.128.0) gives 32766 hosts", "/20 gives 4094 hosts", "/18 gives 16382 hosts"],
+    "correct": 0
+  },
+  {
+    "text": "Traceroute to 8.8.8.8 shows hops but no response from the final destination. What is likely happening?",
+    "options": ["Destination firewall blocks ICMP", "Network congestion", "Routing loop", "DNS failure"],
+    "correct": 0
+  },
+  {
+    "text": "A VoIP call has choppy audio but web browsing is fine. What is the probable cause?",
+    "options": ["Jitter and packet loss affecting real-time UDP traffic", "Bandwidth too low", "DNS slow", "TCP retransmissions"],
+    "correct": 0
+  },
+  {
+    "text": "A company has 2000 devices and uses 10.0.0.0/8 with no subnetting. What problem will arise?",
+    "options": ["Huge broadcast domain causing performance issues", "No problems", "IP address exhaustion", "Cannot connect to internet"],
+    "correct": 0
+  },
+  {
+    "text": "You get IP 169.254.x.x. What does this indicate?",
+    "options": ["DHCP server unavailable, APIPA assigned", "Valid static IP", "Internet connected", "DNS failure"],
+    "correct": 0
+  },
+  {
+    "text": "A file transfer over TCP is very slow but ping RTT is low. What should you check?",
+    "options": ["TCP window size and packet loss causing window reduction", "DNS settings", "Firewall rules", "Switch ports"],
+    "correct": 0
+  },
+  {
+    "text": "Two routers cannot establish OSPF adjacency. What is a common cause?",
+    "options": ["MTU mismatch between interfaces", "IP address conflict", "Same router ID", "Duplicate hostnames"],
+    "correct": 0
+  },
+  {
+    "text": "A website loads partially with broken images and missing CSS. What is the likely issue?",
+    "options": ["Some resources blocked or path errors", "DNS failure", "HTTP 500 error", "SSL certificate expired"],
+    "correct": 0
+  },
+  {
+    "text": "What does a sustained high rate of TCP retransmissions indicate?",
+    "options": ["Network congestion or packet loss", "Normal operation", "Switch misconfiguration", "DNS problem"],
+    "correct": 0
+  },
+  {
+    "text": "A user reports no internet but can ping 8.8.8.8 by IP. What is the likely problem?",
+    "options": ["DNS resolution failing", "Default gateway down", "IP conflict", "Physical cable issue"],
+    "correct": 0
+  },
+  {
+    "text": "What does a TCP zero window repeatedly followed by small window announcements suggest?",
+    "options": ["Receiver application not consuming data fast enough", "Network congestion", "Packet corruption", "Routing loop"],
+    "correct": 0
+  },
+  {
+    "text": "A subnet with mask 255.255.255.192 has network address 192.168.1.64. What is the broadcast address?",
+    "options": ["192.168.1.127", "192.168.1.255", "192.168.1.126", "192.168.1.191"],
+    "correct": 0
+  },
+  {
+    "text": "Which statement about TCP is FALSE?",
+    "options": ["TCP guarantees packet delivery within a specific time", "TCP provides ordered data delivery", "TCP uses sequence numbers", "TCP has congestion control"],
+    "correct": 0
+  },
+  {
+    "text": "True or False: UDP always delivers packets faster than TCP.",
+    "options": ["False - UDP generally has lower latency but no guarantee", "True - UDP is always faster", "False - TCP is faster", "True for all scenarios"],
+    "correct": 0
+  },
+  {
+    "text": "Which of the following does NOT happen during TCP three-way handshake?",
+    "options": ["Data transmission begins", "Sequence numbers synchronized", "Connection established", "SYN and ACK flags exchanged"],
+    "correct": 0
+  },
+  {
+    "text": "True or False: Private IP addresses are routable on the public internet.",
+    "options": ["False - Private addresses are non-routable on internet", "True - They work anywhere", "False - Only if NAT is used", "True with special routing"],
+    "correct": 0
+  },
+  {
+    "text": "What is a common misconception about ping?",
+    "options": ["Ping succeeding does NOT guarantee application connectivity (ports may be blocked)", "Ping tests DNS resolution", "Ping shows bandwidth", "Ping encrypts data"],
+    "correct": 0
+  },
+  {
+    "text": "Which statement about MAC addresses is FALSE?",
+    "options": ["MAC addresses change when moving to different networks", "MAC addresses are burned into NIC", "MAC addresses are 48 bits", "MAC addresses are layer 2 addresses"],
+    "correct": 0
+  },
+  {
+    "text": "True or False: A /31 subnet (255.255.255.254) has 0 usable host addresses.",
+    "options": ["False - /31 can have 2 hosts (point-to-point links per RFC 3021)", "True - No usable hosts", "False - /31 has 1 host", "True for IPv4 only"],
+    "correct": 0
+  },
+  {
+    "text": "Which is NOT a responsibility of the TCP/IP Transport Layer?",
+    "options": ["Routing packets between networks", "Multiplexing applications with ports", "Segmentation and reassembly", "End-to-end error recovery"],
+    "correct": 0
+  },
+  {
+    "text": "True or False: A router changes the source MAC address of packets it forwards.",
+    "options": ["True - MAC address changes at each hop", "False - MAC stays same", "True - Only for broadcast traffic", "False - Only IP changes"],
+    "correct": 0
+  },
+  {
+    "text": "What is a common misunderstanding about the OSI model vs TCP/IP?",
+    "options": ["TCP/IP has fewer layers but combines some functions", "OSI model is obsolete and never used", "TCP/IP has 7 layers like OSI", "OSI model is for wireless only"],
+    "correct": 0
+  },
+  {
+    "text": "Which statement about port 0 is correct?",
+    "options": ["Port 0 is reserved and cannot be used", "Port 0 is used for HTTP", "Port 0 is for FTP", "Port 0 is well-known for DHCP"],
+    "correct": 0
+  },
+  {
+    "text": "True or False: A switch learns MAC addresses from the destination address of frames.",
+    "options": ["False - Switches learn from source MAC addresses", "True - From destination", "False - From IP address", "True - Both source and destination"],
+    "correct": 0
+  },
+  {
+    "text": "What is wrong with IP address 255.255.255.255?",
+    "options": ["It's the limited broadcast address, not assignable to hosts", "It's a valid host address", "It's a private address", "It's IPv6 address"],
+    "correct": 0
+  },
+  {
+    "text": "True or False: TCP guarantees that data will arrive in exactly one segment as sent.",
+    "options": ["False - TCP may segment and reassemble; application sees byte stream", "True - Preserves message boundaries", "False - Only UDP preserves boundaries", "True with small data"],
+    "correct": 0
+  },
+  {
+    "text": "Which is NOT a type of DNS server?",
+    "options": ["HTTP Server", "Recursive Resolver", "Authoritative Name Server", "Root Name Server"],
+    "correct": 0
+  },
+  {
+    "text": "True or False: The Internet and World Wide Web are the same thing.",
+    "options": ["False - Internet is network infrastructure; Web is service on it", "True - Identical", "False - Web is older", "True - Both were invented in 1990"],
+    "correct": 0
+  },
+  {
+    "text": "What is a misconception about IPv6?",
+    "options": ["IPv6 is not just more addresses but also better security and autoconfiguration", "IPv6 is only about larger address space", "IPv6 is slower", "IPv6 is backward compatible"],
+    "correct": 0
+  },
+  {
+    "text": "Which statement about NAT is FALSE?",
+    "options": ["NAT improves end-to-end connectivity", "NAT conserves IPv4 addresses", "NAT hides internal network structure", "NAT can break some protocols like IPsec"],
+    "correct": 0
+  },
+  {
+    "text": "True or False: A host with IP 127.0.0.1 can communicate with other hosts on the network.",
+    "options": ["False - Loopback only talks to itself", "True - Works like any IP", "False - Requires special routing", "True - With default gateway"],
+    "correct": 0
+  },
+  {
+    "text": "What is the maximum theoretical throughput of TCP over a high-latency link limited by?",
+    "options": ["Window size and RTT (Bandwidth-Delay Product)", "CPU speed only", "Link bandwidth only", "Number of hops"],
+    "correct": 0
+  },
+  {
+    "text": "Which layer of the TCP/IP model is responsible for routing packets across multiple networks?",
+    "options": ["Application Layer", "Transport Layer", "Internet Layer", "Link Layer"],
+    "correct": 2
+  },
+  {
+    "text": "Which protocol is primarily responsible for reliable data transmission?",
+    "options": ["UDP", "ARP", "TCP", "ICMP"],
+    "correct": 2
+  },
+  {
+    "text": "What is the topmost layer of the TCP/IP model?",
+    "options": ["Internet Layer", "Link Layer", "Transport Layer", "Application Layer"],
+    "correct": 3
+  },
+  {
+    "text": "Which TCP/IP layer combines the functions of the OSI Physical and Data Link layers?",
+    "options": ["Application Layer", "Link Layer", "Transport Layer", "Internet Layer"],
+    "correct": 1
+  },
+  {
+    "text": "What is the primary function of the Transport Layer?",
+    "options": ["Routing", "End-to-end communication", "Physical transmission", "DNS resolution"],
+    "correct": 1
+  },
+  {
+    "text": "Which protocol is connectionless?",
+    "options": ["TCP", "HTTP", "UDP", "FTP"],
+    "correct": 2
+  },
+  {
+    "text": "Which protocol uses a three-way handshake?",
+    "options": ["UDP", "TCP", "IP", "ARP"],
+    "correct": 1
+  },
+  {
+    "text": "What is the PDU at the Internet Layer called?",
+    "options": ["Frame", "Segment", "Packet", "Bit"],
+    "correct": 2
+  },
+  {
+    "text": "Which protocol is responsible for logical addressing?",
+    "options": ["TCP", "IP", "UDP", "HTTP"],
+    "correct": 1
+  },
+  {
+    "text": "Which layer handles MAC addresses?",
+    "options": ["Link Layer", "Internet Layer", "Transport Layer", "Application Layer"],
+    "correct": 0
+  },
+  {
+    "text": "What process adds headers to data as it moves down the TCP/IP stack?",
+    "options": ["Fragmentation", "Encapsulation", "Decapsulation", "Multiplexing"],
+    "correct": 1
+  },
+  {
+    "text": "What process removes headers at the receiving end?",
+    "options": ["Encapsulation", "Decapsulation", "Segmentation", "Routing"],
+    "correct": 1
+  },
+  {
+    "text": "Which protocol is commonly used for web browsing?",
+    "options": ["SMTP", "HTTP", "FTP", "SNMP"],
+    "correct": 1
+  },
+  {
+    "text": "Which protocol translates domain names into IP addresses?",
+    "options": ["DNS", "DHCP", "ARP", "TCP"],
+    "correct": 0
+  },
+  {
+    "text": "Which transport protocol is generally preferred for online gaming?",
+    "options": ["TCP", "UDP", "FTP", "SMTP"],
+    "correct": 1
+  },
+  {
+    "text": "Which protocol guarantees packet delivery?",
+    "options": ["UDP", "IP", "TCP", "ARP"],
+    "correct": 2
+  },
+  {
+    "text": "Which TCP/IP layer provides services directly to user applications?",
+    "options": ["Internet Layer", "Transport Layer", "Link Layer", "Application Layer"],
+    "correct": 3
+  },
+  {
+    "text": "Which protocol is used to send emails?",
+    "options": ["SMTP", "HTTP", "FTP", "SNMP"],
+    "correct": 0
+  },
+  {
+    "text": "Which protocol is responsible for automatic IP address assignment?",
+    "options": ["DNS", "DHCP", "ICMP", "ARP"],
+    "correct": 1
+  },
+  {
+    "text": "Which field identifies a specific application on a host?",
+    "options": ["MAC Address", "IP Address", "Port Number", "Subnet Mask"],
+    "correct": 2
+  },
+  {
+    "text": "What is the primary purpose of IP addresses?",
+    "options": ["Identify applications", "Identify devices on a network", "Encrypt data", "Store data"],
+    "correct": 1
+  },
+  {
+    "text": "Which protocol is used to transfer files between computers?",
+    "options": ["FTP", "HTTP", "SMTP", "SNMP"],
+    "correct": 0
+  },
+  {
+    "text": "Which layer is responsible for packet routing decisions?",
+    "options": ["Link Layer", "Application Layer", "Internet Layer", "Session Layer"],
+    "correct": 2
+  },
+  {
+    "text": "What is the unit of data at the Link Layer?",
+    "options": ["Packet", "Segment", "Frame", "Message"],
+    "correct": 2
+  },
+  {
+    "text": "Which protocol is used to test network connectivity using ping?",
+    "options": ["TCP", "UDP", "ICMP", "ARP"],
+    "correct": 2
+  },
+  {
+    "text": "Which TCP/IP layer is closest to the physical network medium?",
+    "options": ["Application Layer", "Transport Layer", "Internet Layer", "Link Layer"],
+    "correct": 3
+  },
+  {
+    "text": "What does TCP stand for?",
+    "options": ["Transfer Control Protocol", "Transmission Control Protocol", "Transport Communication Protocol", "Transfer Communication Process"],
+    "correct": 1
+  },
+  {
+    "text": "What does UDP stand for?",
+    "options": ["Universal Datagram Protocol", "User Data Process", "User Datagram Protocol", "Unified Data Protocol"],
+    "correct": 2
+  },
+  {
+    "text": "Which protocol is faster because it has less overhead?",
+    "options": ["TCP", "UDP", "HTTP", "FTP"],
+    "correct": 1
+  },
+  {
+    "text": "Which protocol provides error checking and retransmission?",
+    "options": ["IP", "UDP", "ARP", "TCP"],
+    "correct": 3
+  },
+  {
+    "text": "Which layer breaks large messages into smaller segments?",
+    "options": ["Transport Layer", "Link Layer", "Internet Layer", "Application Layer"],
+    "correct": 0
+  },
+  {
+    "text": "Which protocol is best suited for video streaming?",
+    "options": ["TCP", "UDP", "FTP", "SMTP"],
+    "correct": 1
+  },
+  {
+    "text": "Which protocol maps IP addresses to MAC addresses?",
+    "options": ["ARP", "DNS", "DHCP", "TCP"],
+    "correct": 0
+  },
+  {
+    "text": "What is the primary function of encapsulation?",
+    "options": ["Delete data", "Compress data", "Add protocol information", "Encrypt data"],
+    "correct": 2
+  },
+  {
+    "text": "Which layer receives data first from an application?",
+    "options": ["Link Layer", "Transport Layer", "Internet Layer", "Application Layer"],
+    "correct": 3
+  },
+  {
+    "text": "Which TCP/IP protocol suite forms the foundation of the Internet?",
+    "options": ["OSI", "TCP/IP", "Ethernet", "Bluetooth"],
+    "correct": 1
+  },
+  {
+    "text": "Which layer determines the path a packet follows?",
+    "options": ["Transport Layer", "Application Layer", "Internet Layer", "Link Layer"],
+    "correct": 2
+  },
+  {
+    "text": "Which protocol is commonly used for secure web communication?",
+    "options": ["HTTP", "HTTPS", "FTP", "SMTP"],
+    "correct": 1
+  },
+  {
+    "text": "What is the destination identifier used by routers?",
+    "options": ["MAC Address", "Port Number", "IP Address", "Username"],
+    "correct": 2
+  },
+  {
+    "text": "Which protocol is connection-oriented?",
+    "options": ["UDP", "IP", "TCP", "ARP"],
+    "correct": 2
+  },
+  {
+    "text": "Which layer provides process-to-process communication?",
+    "options": ["Transport Layer", "Internet Layer", "Link Layer", "Application Layer"],
+    "correct": 0
+  },
+  {
+    "text": "Which TCP/IP layer is responsible for framing?",
+    "options": ["Application Layer", "Transport Layer", "Internet Layer", "Link Layer"],
+    "correct": 3
+  },
+  {
+    "text": "Which protocol is responsible for routing packets between networks?",
+    "options": ["IP", "TCP", "UDP", "DNS"],
+    "correct": 0
+  },
+  {
+    "text": "What is the main advantage of UDP over TCP?",
+    "options": ["Reliability", "Flow Control", "Lower Latency", "Retransmission"],
+    "correct": 2
+  },
+  {
+    "text": "Which layer contains protocols such as HTTP, FTP and SMTP?",
+    "options": ["Internet Layer", "Application Layer", "Transport Layer", "Link Layer"],
+    "correct": 1
+  },
+  {
+    "text": "Which protocol checks whether a destination host is reachable?",
+    "options": ["ICMP", "FTP", "SMTP", "ARP"],
+    "correct": 0
+  },
+  {
+    "text": "Which TCP/IP layer is responsible for delivering data to the correct application?",
+    "options": ["Link Layer", "Transport Layer", "Internet Layer", "Physical Layer"],
+    "correct": 1
+  },
+  {
+    "text": "Which protocol is more suitable for file downloads?",
+    "options": ["UDP", "TCP", "ARP", "ICMP"],
+    "correct": 1
+  },
+  {
+    "text": "What happens after data reaches the receiving host?",
+    "options": ["Encapsulation", "Decapsulation", "Fragmentation", "Broadcasting"],
+    "correct": 1
+  },
+  {
+    "text": "Why is TCP/IP important?",
+    "options": ["It provides a universal standard for network communication", "It replaces operating systems", "It stores web pages", "It creates hardware devices"],
+    "correct": 0
+  }
+]
 }
