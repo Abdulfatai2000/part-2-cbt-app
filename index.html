@@ -109,7 +109,14 @@
         <div id="resultScreen" class="screen">
             <div class="card result-card">
                 <h2>📋 Test Results</h2>
-                <div class="score-circle" id="scoreCircle">0%</div>
+                <div class="pie-chart-container">
+                    <canvas id="scorePieChart" width="200" height="200"></canvas>
+                    <div class="pie-percentage" id="piePercentage">0%</div>
+                </div>
+                <div class="pie-legend">
+                    <span style="color:#10b981;">● Correct: <span id="correctTotal">0</span></span>
+                    <span style="color:#ef4444;">● Wrong: <span id="wrongTotal">0</span></span>
+                </div>
                 <p class="score-detail" id="scoreDetail">0 / 0 correct</p>
                 
                 <div class="wrong-answers" id="wrongAnswers">

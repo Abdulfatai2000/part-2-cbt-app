@@ -374,7 +374,16 @@ function finishTest() {
     );
     
     // Show results
-    scoreCircle.textContent = `${percentage}%`;
+    // Draw pie chart
+    const wrongCount = selectedQuestions.length - correctCount;
+    drawPieChart(correctCount, wrongCount);
+
+    // Update percentage text
+    document.getElementById('piePercentage').textContent = `${percentage}%`;
+
+    // Update legend numbers
+    document.getElementById('correctTotal').textContent = correctCount;
+    document.getElementById('wrongTotal').textContent = wrongCount;
     scoreDetail.textContent = `${correctCount} / ${selectedQuestions.length} correct`;
     
     // Display wrong answers
@@ -487,6 +496,83 @@ clearHistoryBtn.addEventListener('click', () => {
         clearAllHistory();
     }
 });
+
+// ========== KEYBOARD NAVIGATION ==========
+document.addEventListener('keydown', function(event) {
+    // Check if test screen is visible
+    const testScreen = document.getElementById('testScreen');
+    if (!testScreen.classList.contains('active')) return;
+    
+    // Left Arrow (←) - Previous Question
+    if (event.key === 'ArrowLeft') {
+        event.preventDefault();
+        const prevBtn = document.getElementById('prevBtn');
+        if (prevBtn) prevBtn.click();
+    }
+    
+    // Right Arrow (→) - Next Question
+    if (event.key === 'ArrowRight') {
+        event.preventDefault();
+        const nextBtn = document.getElementById('nextBtn');
+        if (nextBtn) nextBtn.click();
+    }
+});
+
+// ========== DRAW PIE CHART ==========
+function drawPieChart(correct, wrong) {
+    const canvas = document.getElementById('scorePieChart');
+    if (!canvas) return;
+    
+    const ctx = canvas.getContext('2d');
+    const total = correct + wrong;
+    
+    // Set canvas size
+    canvas.width = 400;
+    canvas.height = 400;
+    
+    // Clear canvas
+    ctx.clearRect(0, 0, 400, 400);
+    
+    // If no data, don't draw
+    if (total === 0) return;
+    
+    // Calculate angles (start from top)
+    let startAngle = -90 * Math.PI / 180;
+    
+    // Draw correct portion (Green)
+    if (correct > 0) {
+        const correctAngle = (correct / total) * 360 * Math.PI / 180;
+        ctx.beginPath();
+        ctx.moveTo(200, 200);
+        ctx.arc(200, 200, 180, startAngle, startAngle + correctAngle);
+        ctx.fillStyle = '#10b981';
+        ctx.fill();
+        startAngle += correctAngle;
+    }
+    
+    // Draw wrong portion (Red)
+    if (wrong > 0) {
+        const wrongAngle = (wrong / total) * 360 * Math.PI / 180;
+        ctx.beginPath();
+        ctx.moveTo(200, 200);
+        ctx.arc(200, 200, 180, startAngle, startAngle + wrongAngle);
+        ctx.fillStyle = '#ef4444';
+        ctx.fill();
+    }
+    
+    // Draw white center circle (donut hole effect)
+    ctx.beginPath();
+    ctx.arc(200, 200, 100, 0, 2 * Math.PI);
+    ctx.fillStyle = 'white';
+    ctx.fill();
+    
+    // Draw border
+    ctx.beginPath();
+    ctx.arc(200, 200, 180, 0, 2 * Math.PI);
+    ctx.strokeStyle = '#cbd5e1';
+    ctx.lineWidth = 3;
+    ctx.stroke();
+}
 
 // Initialize
 updateMaxQuestions();
