@@ -1,0 +1,327 @@
+{
+  "courseName": "STT 202",
+  "questions":[
+  {
+    "id": 1,
+    "text": "In a class, there are 27 boys and 14 girls. The teacher wants to select 1 boy and 1 girl to represent the class for a function. In how many ways can the teacher make this selection?",
+    "options": ["378", "284", "225", "172"],
+    "correct": 0
+  },
+  {
+    "id": 2,
+    "text": "A school musical director can select 3 musical plays to present next academic season. One will be presented in the Harmattan semester, one in the Rain semester, and one in the Dry semester. If she has 7 musical plays to pick from, how many different possibilities are there?",
+    "options": ["72", "108", "210", "144"],
+    "correct": 2
+  },
+  {
+    "id": 3,
+    "text": "A security code consists of 3 letters followed by 1 digit. The first letter in the code must be a vowel. How many different security codes are possible? (Assume 26 letters and 10 digits)",
+    "options": ["33,860", "41,960", "45,620", "33,800"],
+    "correct": 3
+  },
+  {
+    "id": 4,
+    "text": "In how many ways can 3 mathematics books, 4 history books, 3 chemistry books and 2 biology books be arranged on a shelf so that all books of the same subjects are together?",
+    "options": ["1,950", "41,472", "41,056", "9,625"],
+    "correct": 1
+  },
+  {
+    "id": 5,
+    "text": "Ten different letters of the alphabet are given. If words with five letters are formed from these given letters, then the number of words which have at least one letter repeated is",
+    "options": ["69,760", "59,748", "90,784", "30,240"],
+    "correct": 0
+  },
+  {
+    "id": 6,
+    "text": "There are 17 points on the circumference of a circle. How many lines can be drawn to connect all possible pairs of points?",
+    "options": ["1,520", "504", "302", "136"],
+    "correct": 3
+  },
+  {
+    "id": 7,
+    "text": "In a youth hockey league, 9 teams compete for the championship. What is the number of ways that the winner, second, third, and fourth place trophies could be awarded?",
+    "options": ["3,024", "15,120", "120", "504"],
+    "correct": 0
+  },
+  {
+    "id": 8,
+    "text": "There are 6 married couples in a tennis club. If 3 men and 3 women are selected at random to plan a summer tournament, find the probability that they are married to each other.",
+    "options": ["1/8", "1/20", "1/36", "1/64"],
+    "correct": 1
+  },
+  {
+    "id": 9,
+    "text": "In how many ways can 7 distinct people and 2 identical objects be arranged in a circle such that no two identical objects are adjacent?",
+    "options": ["5,040", "15,120", "5,240", "10,080"],
+    "correct": 1
+  },
+  {
+    "id": 10,
+    "text": "Out of 6 chemists and 8 economists, a committee consisting of 2 chemists and 3 economists is to be formed. In how many ways can the selection be done if any chemist and any economist can be included?",
+    "options": ["840", "56", "1,680", "560"],
+    "correct": 0
+  },
+  {
+    "id": 11,
+    "text": "Out of 6 chemists and 8 economists, a committee consisting of 2 chemists and 3 economists is to be formed. In how many ways can the selection be done if one particular economist must be included?",
+    "options": ["560", "315", "840", "210"],
+    "correct": 1
+  },
+  {
+    "id": 12,
+    "text": "Out of 6 chemists and 8 economists, a committee consisting of 2 chemists and 3 economists is to be formed. What is the probability that two particular chemists cannot both be on the committee?",
+    "options": ["1/3", "1/2", "1/4", "1/5"],
+    "correct": 0
+  },
+  {
+    "id": 13,
+    "text": "A bag contains 5 red balls and 3 green balls. If two balls are drawn at random without replacement, what is the probability that the second ball is red, given that the first ball drawn was red?",
+    "options": ["4/7", "3/7", "5/8", "1/2"],
+    "correct": 0
+  },
+  {
+    "id": 14,
+    "text": "In a survey, 60% of people like coffee, 40% like tea, and 20% like both. If a person likes coffee, what is the probability that they also like tea?",
+    "options": ["2/3", "1/3", "1/2", "1/4"],
+    "correct": 1
+  },
+  {
+    "id": 15,
+    "text": "A shipment of two boxes, each containing six telephones, is received by a store. Box 1 contains one defective phone, and Box 2 contains two defective phones. After the boxes are unpacked, a phone is selected and found to be defective. Find the probability that it came from Box 2.",
+    "options": ["2/3", "0.567", "1/2", "1/6"],
+    "correct": 0
+  },
+  {
+    "id": 16,
+    "text": "It is observed that 50% of emails are spam. There is a software that filters spam mail before reaching the inbox. Its accuracy for detecting a spam mail is 99% and chances of tagging a non-spam mail as spam mail is 5%. If a certain mail is tagged as spam, find the probability that it is NOT a spam mail.",
+    "options": ["0.046", "0.048", "0.092", "0.065"],
+    "correct": 1
+  },
+  {
+    "id": 17,
+    "text": "On a game show, a contestant can select one of four boxes. Box 1 contains one $100 bill and nine $1 bills. Box 2 contains two $100 bills and eight $1 bills. Box 3 contains three $100 bills and seven $1 bills. Box 4 contains five $100 bills and five $1 bills. The contestant selects a box at random and selects a bill from the box at random. If a $100 bill is selected, find the probability that it came from Box 4.",
+    "options": ["0.45", "0.125", "0.25", "0.5"],
+    "correct": 0
+  },
+  {
+    "id": 18,
+    "text": "In a neighbourhood, 90% children were falling sick due to flu and 10% due to measles and no other disease. The probability of observing rashes for measles is 0.95 and for flu is 0.08. If a child develops rash, find the child's probability of having flu.",
+    "options": ["0.02", "0.43", "0.96", "0.75"],
+    "correct": 1
+  },
+  {
+    "id": 19,
+    "text": "Suppose N students take the STT 204 exam, with scores ranging in (0, 1, 2, ..., 100) and a mean score of 50. Using Markov's inequality, find an upper bound on the probability that a student scores above 50.",
+    "options": ["1/N", "1/2", "1/4", "1"],
+    "correct": 3
+  },
+  {
+    "id": 20,
+    "text": "Given that the moment generating function of a random variable X is given by M_X(t) = e^{-t}, find the mean of X.",
+    "options": ["-2", "-4", "-1", "0"],
+    "correct": 2
+  },
+  {
+    "id": 21,
+    "text": "Given that M_X(t) = exp(4t + 5t^2), find the mgf of Y = (3X - 2)/4.",
+    "options": [
+      "exp(3t/4 - 5t^2/4)",
+      "exp(3t/4 - 5t/4)",
+      "exp(3t/4 + 5t^2/4)",
+      "exp(3t/4 + 5t/4)"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 22,
+    "text": "Given that M_X(t) = exp(4t + 5t^2), determine the value of 2σ^2 - μ^2.",
+    "options": ["4", "3", "5", "50"],
+    "correct": 0
+  },
+  {
+    "id": 23,
+    "text": "If Y has a probability mass function f(Y) = 2/3^Y, Y = 1, 2, 3, ..., what is the probability generating function of Y?",
+    "options": [
+      "2s/(3-s)",
+      "2/3 + 1/3 e^Y",
+      "1/3 + 1/3 e^Y",
+      "1/3 - 1/3 e^Y"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 24,
+    "text": "If Y has a probability mass function f(Y) = 2/3^Y, Y = 1, 2, 3, ..., determine the first moment of Y.",
+    "options": ["2", "3", "4", "5"],
+    "correct": 1
+  },
+  {
+    "id": 25,
+    "text": "A sales firm receives, on average, 0.05 calls per minute on its toll-free number. For any given hour, find the probability that it will receive at least 3 calls.",
+    "options": ["0.4323", "0.5678", "0.4232", "0.5768"],
+    "correct": 3
+  },
+  {
+    "id": 26,
+    "text": "A baby can hold 6 objects with probability 0.6. If a coin is tossed twice, what is the probability of getting two heads?",
+    "options": ["0.48", "0.72", "0.64", "0.36"],
+    "correct": 2
+  },
+  {
+    "id": 27,
+    "text": "If approximately 2% of the people in a room of 200 people are left-handed, find the probability that exactly 5 people there are left-handed.",
+    "options": ["0.1579", "0.1653", "0.2424", "0.0978"],
+    "correct": 0
+  },
+  {
+    "id": 28,
+    "text": "If X is a random variable with Poisson distribution satisfying P(X = 0) = P(X = 1), find P(X = 4).",
+    "options": ["0.132", "0.028", "0.015", "0.162"],
+    "correct": 2
+  },
+  {
+    "id": 29,
+    "text": "In a music store, a manager found that the probabilities that a person buys 0, 1, or 2 or more CDs are 0.3, 0.6, and 0.1, respectively. If 6 customers enter the store, find the probability that 1 person buys 0 CDs, 3 people will buy 1 CD, and 2 persons will buy 2 or more CDs.",
+    "options": ["0.0583", "0.039", "0.1", "0.28"],
+    "correct": 1
+  },
+  {
+    "id": 30,
+    "text": "A survey found that 30% of teenage consumers have part-time jobs. If 5 teenagers are selected at random, find the probability that at least 3 of them will have part-time jobs.",
+    "options": ["0.132", "0.028", "0.002", "0.163"],
+    "correct": 3
+  },
+  {
+    "id": 31,
+    "text": "After a seed marketing company had embarked on a rigorous advertisement of their product, it was estimated that their potential for any contact resulting in a successful marketing of their product had risen to fifteen percent. Find the probability that if seven of such contacts were made thereafter, it will result in more than one sale.",
+    "options": ["0.2523", "0.560", "0.3215", "0.1084"],
+    "correct": 0
+  },
+  {
+    "id": 32,
+    "text": "If the pdf of a continuous random variable X is given by f(x) = 0.25, for 1 < x < 5, and 0 otherwise, find P(X ≤ 4).",
+    "options": ["5/8", "1/8", "1/4", "3/4"],
+    "correct": 3
+  },
+  {
+    "id": 33,
+    "text": "Suppose that a random variable X has a uniform distribution on the interval [4, 20], find P(X > 6).",
+    "options": ["1/7", "1/4", "7/16", "7/8"],
+    "correct": 3
+  },
+  {
+    "id": 34,
+    "text": "A random variable X has a uniform distribution on the interval [-4, 4]. Determine the mean of X.",
+    "options": ["5/12", "3/4", "4/3", "0"],
+    "correct": 3
+  },
+  {
+    "id": 35,
+    "text": "A random variable X has a uniform distribution on the interval [-4, 4]. Find the variance of X.",
+    "options": ["16/3", "1/3", "1/36", "1/25"],
+    "correct": 0
+  },
+  {
+    "id": 36,
+    "text": "The time to pass through a security screening at an airport follows exponential distribution. The mean time to pass through the security screening is 15 minutes. To catch the flight, a passenger must clear the security screening within 15 minutes. Calculate the probability that the passenger will miss the flight.",
+    "options": ["2e^{-2}", "2e^{-1}", "2(1-e^{-1})", "e^{-1}"],
+    "correct": 3
+  },
+  {
+    "id": 37,
+    "text": "In a negative binomial distribution, if r, p and q satisfy r = 1, 2, 3, ..., p < q ≤ 1, and q = 1 - p, then the mean and variance of a negative binomial distribution are, respectively",
+    "options": [
+      "rq/p and rq/p^2",
+      "rp/q and rq/p^2",
+      "rq/p and rp/q^2",
+      "rp/q and rq/p^2"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 38,
+    "text": "If X and Y are random variables, then Var(2X - 3Y) =",
+    "options": [
+      "2Var(X) + 6Cov(X,Y) + 3Var(Y)",
+      "4Var(X) - 12Cov(X,Y) + 9Var(Y)",
+      "4Var(X) + 12Cov(X,Y) - 9Var(Y)",
+      "2Var(X) - 3Var(Y)"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 39,
+    "text": "Which of the following statements is NOT true about a sample space?",
+    "options": [
+      "The probability of any single outcome in a sample space is p, 0 ≤ p ≤ 1",
+      "The cardinality of the sample space for tossing three coins is 16",
+      "A sample space can be a singleton set",
+      "The sample space for rolling a fair die is {1, 2, 3, 4, 5, 6}"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 40,
+    "text": "Which of the following statements is TRUE about a sample space?",
+    "options": [
+      "The sample space for rolling a fair die is {1, 2, 3, 4, 5, 6}",
+      "A sample space can include impossible outcomes if they have zero probability",
+      "The probability of any single outcome in a sample space is always equal",
+      "The sample space for tossing two coins is {HH, HT, TH, TT}"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 41,
+    "text": "Let X be a random variable with probability density function f(x) = 2x, 0 < x < 1, find P(0 < X < 1/2).",
+    "options": ["1/18", "1/4", "1/6", "5/16"],
+    "correct": 1
+  },
+  {
+    "id": 42,
+    "text": "One thousand tickets are sold at $1 each for a color television valued at $350. What is the expected value of the gain if you purchase one ticket?",
+    "options": ["$1", "-$0.65", "$0.5", "$0.85"],
+    "correct": 1
+  },
+  {
+    "id": 43,
+    "text": "Which of the following statements is NOT true of a hypergeometric experiment?",
+    "options": [
+      "Sampling is done without replacement",
+      "It has a fixed number of trials",
+      "The probability of a success for each trial remains the same",
+      "There are only two outcomes for each trial"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 44,
+    "text": "Ten people apply for a job as assistant manager of a restaurant. Five have completed college and five have not. If the manager selects 3 applicants at random, find the probability that all 3 are college graduates.",
+    "options": ["0.080", "1", "0.083", "0.125"],
+    "correct": 2
+  },
+  {
+    "id": 45,
+    "text": "If the joint density function of two random variables X and Y is given by f(x,y) = λ e^{-λx - λy}, 0 < x < ∞, 0 < y < ∞, λ > 0, then which statement is true?",
+    "options": [
+      "The marginal distribution of Y does not exist",
+      "X and Y are stochastically independent",
+      "The expectation E(XY) = E(X)E(Y)",
+      "All of the above"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 46,
+    "text": "The joint density function of two random variables X and Y is given by the bivariate normal distribution. Determine the condition under which X and Y are stochastically independent.",
+    "options": ["X + Y = 1", "ρ = 0", "Y = exp X", "X = Y^2"],
+    "correct": 1
+  },
+  {
+    "id": 47,
+    "text": "Determine the value of c such that the function f(x) = cx^2, 0 < x < 1, 0 otherwise, is a valid PDF.",
+    "options": ["1/3", "1/2", "1/4", "3"],
+    "correct": 3
+  }
+]
+}
